@@ -1,0 +1,2009 @@
+.sliderContainer {
+	padding: 0
+}
+
+.sliderHolder {
+	padding: 0 8px
+}
+
+.sliderInputsHolder {
+	padding-top: 9px;
+	height: 34px !important;
+	width: 97%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between
+}
+
+.sliderInputsHolder input[type=number]::-ms-clear {
+	display: none;
+	width: 0;
+	height: 0;
+	visibility: hidden
+}
+
+.sliderInputsHolder .inputContainer {
+	position: relative
+}
+
+.sliderInputsHolder .inputContainer.adv {
+	width: 120px;
+	height: 32px
+}
+
+.sliderInputsHolder .inputContainer.adv input {
+	width: 100% !important
+}
+
+.sliderInputsHolder .inputContainer:hover>.btnsContainer {
+	border-color: #a5a5a5 !important;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1) inset !important
+}
+
+.sliderInputsHolder .inputContainer input[type=number],
+.sliderInputsHolder .inputContainer input[type=tel] {
+	padding: 5px;
+	font-size: 14px;
+	border-radius: 4px;
+	-moz-appearance: textfield;
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: 1px solid #d2d2d2;
+	box-shadow: none;
+	color: #1b1b1b;
+	height: 100%;
+	width: 90px;
+	box-sizing: border-box;
+	padding-left: .6em;
+	font-family: "Nunito Sans"
+}
+
+.sliderInputsHolder input[type=tel]::-webkit-outer-spin-button,
+.sliderInputsHolder input[type=tel]::-webkit-inner-spin-button,
+.sliderInputsHolder input[type=number]::-webkit-outer-spin-button,
+.sliderInputsHolder input[type=number]::-webkit-inner-spin-button {
+	display: none
+}
+
+.btnsContainer {
+	position: absolute;
+	box-sizing: border-box;
+	right: 0;
+	flex-direction: column;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	width: 20px;
+	border-radius: 0 4px 4px 0;
+	border: 1px solid #d2d2d2;
+	border-left: solid rgba(153, 153, 153, .2745098039) 1px
+}
+
+.decreaseBtn,
+.increaseBtn {
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #999;
+	fill: #999;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	user-select: none;
+	box-sizing: border-box
+}
+
+.decreaseBtn:active,
+.increaseBtn:active {
+	background-color: #fbfbfb
+}
+
+.decreaseBtn {
+	border-top: solid rgba(153, 153, 153, .2745098039) 1px
+}
+
+.increaseBtn {
+	border-bottom: solid rgba(153, 153, 153, .2745098039) 1px
+}
+
+input[type=number].min-input:focus,
+input[type=number].max-input:focus {
+	outline: rgba(0, 0, 0, 0)
+}
+
+.min-input:hover,
+.max-input:hover {
+	border-color: #a5a5a5 !important;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1) inset !important
+}
+
+.sliderInputsHolder>span:nth-child(2)>input {
+	margin-left: auto
+}
+
+.sliderInputsHolder span {
+	display: flex
+}
+
+.rc-slider-mark .rc-slider-mark-text {
+	color: #bbb;
+	font-size: 14px;
+	transition: font-size .3s ease;
+	text-align: center;
+	transform: translateX(-2.25%)
+}
+
+.rc-slider-mark .rc-slider-mark-text[data-active] {
+	color: #656565;
+	font-size: 15px
+}
+
+.sliderHolder .rc-slider-handle-1 {
+	margin-left: -13px
+}
+
+.sliderHolder .rc-slider-handle-2 {
+	margin-left: -13px
+}
+
+.rc-slider-with-marks .rc-slider-step .rc-slider-dot:last-child,
+.rc-slider-with-marks .rc-slider-step .rc-slider-dot:first-child {
+	display: none
+}
+
+.rc-slider-dot {
+	z-index: 0
+}
+
+.rc-slider-handle.rc-slider-handle:focus,
+.rc-slider-handle.rc-slider-handle:active {
+	box-shadow: 0 0 0 8px rgba(27, 27, 27, .1)
+}
+
+.rc-slider.rc-slider-with-marks .rc-slider-handle.rc-slider-handle:focus,
+.rc-slider.rc-slider-with-marks .rc-slider-handle.rc-slider-handle:active {
+	box-shadow: 0 0 0 8px rgba(27, 27, 27, .1) !important
+}
+
+.rc-slider-disabled {
+	background-color: rgba(0, 0, 0, 0) !important
+}
+
+.rc-slider-disabled .rc-slider-track,
+.rc-slider-disabled .rc-slider-handle {
+	display: none
+}
+
+.rc-slider-disabled .rc-slider-mark-text {
+	color: #dcd7d7 !important
+}
+
+@media screen and (max-width: 1125px) {
+	.rc-slider-mark .rc-slider-mark-text[data-active] {
+		font-size: 14px
+	}
+}
+
+.sliderInputsHolder .inputContainer input[type=number].adv,
+.sliderInputsHolder .inputContainer input[type=tel].adv {
+	text-align: left;
+	padding-left: 0;
+	padding: 8px;
+	color: #1b1b1b;
+	font-family: "Nunito";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px
+}
+
+.rc-slider-handle:hover {
+	box-shadow: 0px 0px 0px 7px rgba(27, 27, 27, .1019607843) !important
+}
+
+.row--UCVG6 {
+	position: relative;
+	cursor: pointer
+}
+
+.row--UCVG6:hover {
+	background-color: #f8f8ff
+}
+
+.cell--Ha_AV {
+	display: table-cell;
+	padding: 5px;
+	vertical-align: top
+}
+
+.tmb--VWA8z {
+	height: inherit;
+	width: 90px
+}
+
+.title--zqIzj {
+	text-align: left
+}
+
+.title--zqIzj h4 {
+	padding: 0;
+	margin: 0;
+	color: #656565;
+	font-size: 11px
+}
+
+.price--P5MfM {
+	text-align: left;
+	color: red;
+	margin-top: 5px
+}
+
+.price--P5MfM::before {
+	content: attr(data-sale-price);
+	color: #656565;
+	text-decoration: line-through;
+	font-size: 80%;
+	margin-right: 10px
+}
+
+.drop-list--Y87Jt {
+	background: #fff;
+	border-top: 0;
+	height: 100%;
+	overflow: hidden;
+	box-sizing: content-box !important;
+	overflow-y: auto;
+	padding: 2px;
+	margin: 4px
+}
+
+.drop-list--Y87Jt.topLabel--NkAy9 {
+	padding: 0;
+	margin: 0
+}
+
+.drop-list--Y87Jt li {
+	font-size: 15px;
+	position: relative
+}
+
+.drop-item-container--wa7wM {
+	width: 100%;
+	height: 100%;
+	display: inline-block
+}
+
+.drop-item--luvio {
+	width: 100%;
+	cursor: pointer;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	color: #656565;
+	font-size: 14px;
+	font-family: Nunito Sans
+}
+
+.drop-item--luvio:hover,
+.drop-item-grouped--kW4q2:hover {
+	background-color: rgba(242, 242, 242, .3)
+}
+
+.drop-item--luvio.selected--YbEhx {
+	background-color: #f2f2f2
+}
+
+.disabled--yFZVn .drop-text--BWtzT {
+	border-bottom: 1px solid #a1a1a1
+}
+
+.disabled--yFZVn .drop-label--uSZHp,
+.disabled--yFZVn .drop-text--BWtzT:after,
+.disabled--yFZVn .drop-text--BWtzT {
+	color: #a1a1a1;
+	opacity: .5;
+	cursor: default
+}
+
+.drop-text--BWtzT {
+	border-bottom: 1px solid #c5c5c5;
+	width: 100%;
+	padding: 2px 10px;
+	position: relative;
+	font-family: Nunito Sans;
+	color: #656565;
+	display: flex;
+	align-items: center
+}
+
+.drop-text--BWtzT.topLabel--NkAy9 {
+	padding: 0;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size: 14px;
+	line-height: 18px
+}
+
+.drop-text-full--RPvS5 {
+	border: 1px solid #c5c5c5;
+	height: 38px;
+	border-radius: 4px
+}
+
+.dropdown--VTDN7:not(.disabled--yFZVn) .drop-text--BWtzT:hover {
+	border-color: #656565 !important
+}
+
+.drop-text--BWtzT:after {
+	content: "î¤·";
+	position: absolute;
+	right: 5px;
+	color: #a1a1a1;
+	font-size: 5px;
+	transition: all .67s ease;
+	font-family: JamesAllenFonts
+}
+
+.drop-text--BWtzT.topLabel--NkAy9:after {
+	bottom: auto
+}
+
+.drop-text--BWtzT.open--SJfwf:after {
+	transform: rotateX(180deg)
+}
+
+.drop-text-full--RPvS5:after {
+	content: "î¤·";
+	position: absolute;
+	top: 16px;
+	right: 11px;
+	color: #a1a1a1;
+	font-size: 5px;
+	transition: all .67s ease;
+	font-family: JamesAllenFonts
+}
+
+.dropdown--VTDN7 {
+	width: 100%;
+	text-align: left;
+	position: relative;
+	font-size: 14px;
+	font-family: Nunito Sans;
+	display: flex;
+	align-items: center
+}
+
+.dropdown--VTDN7.topLabel--NkAy9 {
+	flex-direction: column;
+	color: #a1a1a1;
+	line-height: 12px;
+	font-size: 12px
+}
+
+@media(max-width: 1366px) {
+	.dropdown--VTDN7 {
+		flex-direction: column
+	}
+
+	.dropdown--VTDN7 .drop-label--uSZHp {
+		align-self: flex-start;
+		font-size: 11px
+	}
+}
+
+.dropdown-full--QLrdK {
+	display: block
+}
+
+.dropdown--VTDN7 * {
+	box-sizing: border-box
+}
+
+.drop-label--uSZHp {
+	white-space: pre;
+	margin-right: 10px;
+	font-family: Nunito Sans;
+	color: #a1a1a1;
+	font-size: 12px
+}
+
+.drop-label--uSZHp.topLabel--NkAy9 {
+	align-self: flex-start;
+	font-size: 11px
+}
+
+.drop-label-full--tc3_b {
+	color: #656565;
+	font-size: 14px;
+	margin-bottom: 5px
+}
+
+.drop-box--gekUq {
+	width: 100%;
+	cursor: pointer;
+	position: relative
+}
+
+.drop-text-title--DDIDI {
+	color: #656565;
+	display: inline-block;
+	margin-right: 5px
+}
+
+.drop-list-container--TSWn0 {
+	width: 100%;
+	position: absolute;
+	top: 24px;
+	right: 0;
+	overflow: hidden;
+	z-index: 1000;
+	background-color: #fff;
+	box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .15);
+	border-radius: 5px;
+	border: 1px solid #dbdbdb
+}
+
+.drop-list-container-full--x3g8_ {
+	top: 39px
+}
+
+.drop-list--Y87Jt::-webkit-scrollbar {
+	width: 5px;
+	height: 94px
+}
+
+.drop-list--Y87Jt::-webkit-scrollbar-track {
+	border-radius: 10px
+}
+
+.drop-list--Y87Jt::-webkit-scrollbar-thumb {
+	background: rgba(215, 215, 215, .9);
+	border-radius: 10px
+}
+
+.drop-list--Y87Jt::-webkit-scrollbar-thumb:hover {
+	background: #d7d7d7
+}
+
+.byNewYears--Umfaa {
+	top: 7px;
+	background: url(https://ion.r2net.com/images/ShipsInTime/New_Years.svg) no-repeat;
+	background-size: 100%;
+	width: 26px !important;
+	height: 19px !important
+}
+
+.byXmas--GaKbp {
+	top: 7px;
+	background: url(https://ion.r2net.com/images/ShipsInTime/Christmas.svg) no-repeat;
+	background-size: 100%;
+	width: 26px !important;
+	height: 19px !important
+}
+
+.byValentines--Vrrra {
+	top: 7px;
+	background: url(https://ion.r2net.com/images/ShipsInTime/New_Years_Valentines_Day.svg) no-repeat;
+	background-size: cover;
+	width: 33px !important;
+	height: 19px !important
+}
+
+.byValentines--Vrrra+.dropdown-text--D42mq {
+	margin-left: 0
+}
+
+.dropdown-selected-text--zblrW {
+	display: inline-flex;
+	align-items: center
+}
+
+.drop-text--BWtzT .byValentines--Vrrra {
+	position: relative;
+	top: 0
+}
+
+.icon-bg--lIyRs {
+	height: 36px;
+	width: 36px;
+	background-repeat: no-repeat;
+	-webkit-background-size: contain !important;
+	background-size: contain !important
+}
+
+.bg-metal-show-all--IHpAa {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/ALL.svg")
+}
+
+.bg-metal-14k-white--rRH4o {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/14S.svg")
+}
+
+.bg-metal-18k-white--CEOlz {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/18S.svg")
+}
+
+.bg-metal-14k-yellow--WSwEG {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/14G.svg")
+}
+
+.bg-metal-18k-yellow--zCHAN {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/18G.svg")
+}
+
+.bg-metal-yellow--jM1o2 {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/GOLD.svg")
+}
+
+.bg-metal-white--gP5Qa {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/SILVER.svg")
+}
+
+.bg-metal-platinum--GAocQ {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/PT.svg")
+}
+
+.bg-metal-rose--sKGvp {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/RO.svg")
+}
+
+.bg-unique--sHNSy {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/jamesallen-unique.png") no-repeat;
+	background-size: contain;
+	width: 65px;
+	height: 26px
+}
+
+.bg-danhov--C6T9e {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/danhov_s.png") no-repeat;
+	background-size: contain;
+	width: 65px;
+	height: 14px
+}
+
+.bg-verragio--DRrSn {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/verragio_s.png") no-repeat;
+	background-size: contain;
+	width: 65px;
+	height: 18px
+}
+
+.bg-jeff-cooper--Z_trm {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/jeff-cooper_s.png") no-repeat;
+	background-size: contain;
+	width: 52px;
+	height: 25px
+}
+
+.bg-martin-flyer--pTgOt {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/martin-flyer.png") no-repeat;
+	background-size: contain;
+	width: 65px;
+	height: 22px
+}
+
+.bg-sapphire-gemstone--prFfi {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Sapphire.jpg") no-repeat;
+	width: 24px;
+	height: 24px
+}
+
+.bg-yellow-sapphire-gemstone--H0Wxi {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Yellow_Sapphire.png") no-repeat;
+	width: 24px;
+	height: 24px
+}
+
+.bg-emerald-gemstone--zik4O {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Emerald.jpg") no-repeat;
+	width: 24px;
+	height: 24px
+}
+
+.bg-ruby-gemstone--En6Bt {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Ruby.jpg") no-repeat;
+	width: 24px;
+	height: 24px
+}
+
+.bg-pinkSapphire-gemstone--hLNX_ {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Pink_Sapphire.jpg") no-repeat;
+	width: 24px;
+	height: 24px
+}
+
+.drop-list--DlObx {
+	background: #fff;
+	border-top: 0;
+	height: 100%;
+	overflow: hidden;
+	box-sizing: content-box !important;
+	overflow-y: auto;
+	padding: 2px;
+	margin: 4px
+}
+
+.drop-list--DlObx.topLabel--HbLDP {
+	padding: 0;
+	margin: 0
+}
+
+.drop-list--DlObx li {
+	font-size: 15px;
+	position: relative
+}
+
+.drop-list--DlObx.topLabel--HbLDP li {
+	font-size: 14px;
+	position: relative
+}
+
+.drop-item-container--SZrht {
+	width: 100%;
+	height: 100%;
+	display: inline-block
+}
+
+.drop-item--u6nyp {
+	width: 100%;
+	cursor: pointer;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	color: #656565;
+	font-size: 14px;
+	font-family: Nunito Sans
+}
+
+.drop-item-container-grouped--zEwBO.is-default--RaGKp {
+	display: block;
+	padding-left: 5px;
+	border-bottom: 1px solid #c5c5c5
+}
+
+.drop-item-container-grouped--zEwBO {
+	width: 100%;
+	height: 100%;
+	padding-left: 50px;
+	display: inline-block
+}
+
+.drop-item-container-grouped--zEwBO.topLabel--HbLDP {
+	padding-left: 0;
+	height: 38px
+}
+
+.drop-category--bGeYy {
+	width: 50px;
+	position: absolute;
+	top: 0;
+	left: 5px;
+	color: #ea7070;
+	height: 100%;
+	padding: 5px
+}
+
+.drop-category--bGeYy.topLabel--HbLDP {
+	position: static;
+	padding: 16px 5px 4px;
+	font-weight: 400;
+	font-size: 10px;
+	height: 34px;
+	text-transform: uppercase;
+	color: #a1a1a1
+}
+
+.drop-item-grouped--m2uCF {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	padding: 5px
+}
+
+.drop-item-grouped--m2uCF.topLabel--HbLDP {
+	padding: 5px 8px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: #656565
+}
+
+.drop-item-grouped--m2uCF.isSelected--e0Nl6 {
+	background-color: #f2f2f2
+}
+
+.drop-item--u6nyp:hover,
+.drop-item-grouped--m2uCF:hover {
+	background-color: rgba(242, 242, 242, .3)
+}
+
+.drop-item--u6nyp.selected--NG7Da {
+	background-color: #f2f2f2
+}
+
+.disabled--gtq14 .drop-text--osNOE {
+	border-bottom: 1px solid #a1a1a1
+}
+
+.disabled--gtq14 .drop-label--NlZmH,
+.disabled--gtq14 .drop-text--osNOE:after,
+.disabled--gtq14 .drop-text--osNOE {
+	color: #a1a1a1;
+	opacity: .5;
+	cursor: default
+}
+
+.drop-text--osNOE.open--Zdt_P:after {
+	transform: rotateX(180deg)
+}
+
+.drop-text--osNOE {
+	border-bottom: 1px solid #c5c5c5;
+	width: 100%;
+	padding: 2px 10px;
+	position: relative;
+	font-family: Nunito Sans;
+	color: #656565;
+	display: flex;
+	align-items: center
+}
+
+.drop-text--osNOE.topLabel--HbLDP {
+	padding: 0;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size: 14px;
+	line-height: 18px
+}
+
+.drop-text-full--W__wf {
+	border: 1px solid #c5c5c5;
+	height: 38px;
+	border-radius: 4px
+}
+
+.dropdown--bQwo5:not(.disabled--gtq14) .drop-text--osNOE:hover {
+	border-color: #656565 !important
+}
+
+.drop-text--osNOE:after {
+	content: "î¤·";
+	position: absolute;
+	bottom: 10px;
+	right: 5px;
+	color: #a1a1a1;
+	font-size: 5px;
+	transition: all .67s ease;
+	font-family: JamesAllenFonts
+}
+
+.drop-text--osNOE.topLabel--HbLDP:after {
+	bottom: auto
+}
+
+.drop-text-full--W__wf:after {
+	content: "î¤·";
+	position: absolute;
+	top: 16px;
+	right: 11px;
+	color: #a1a1a1;
+	font-size: 5px;
+	transition: all .67s ease;
+	font-family: JamesAllenFonts
+}
+
+.dropdown--bQwo5 {
+	width: 100%;
+	text-align: left;
+	position: relative;
+	font-size: 14px;
+	font-family: Nunito Sans;
+	display: flex;
+	align-items: center
+}
+
+.dropdown--bQwo5.topLabel--HbLDP {
+	flex-direction: column
+}
+
+.dropdown-full--bIzHA {
+	display: block
+}
+
+.dropdown--bQwo5 * {
+	box-sizing: border-box
+}
+
+.drop-label--NlZmH {
+	white-space: pre;
+	margin-right: 10px;
+	font-family: Nunito Sans;
+	color: #a1a1a1;
+	font-size: 12px
+}
+
+.drop-label--NlZmH.topLabel--HbLDP {
+	align-self: flex-start;
+	font-size: 11px
+}
+
+.drop-label-full--y23uN {
+	color: #656565;
+	font-size: 14px;
+	margin-bottom: 5px
+}
+
+.drop-box--NpFE6 {
+	width: 100%;
+	cursor: pointer;
+	position: relative
+}
+
+.drop-text-title--J5ild {
+	color: #656565;
+	display: inline-block;
+	margin-right: 5px
+}
+
+.drop-list-container--wLpnG {
+	width: 100%;
+	position: absolute;
+	top: 24px;
+	right: 0;
+	overflow: hidden;
+	z-index: 1000;
+	background-color: #fff;
+	box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .15);
+	border-radius: 5px;
+	border: 1px solid #dbdbdb
+}
+
+.drop-list-container--wLpnG.topLabel--HbLDP {
+	overflow-y: auto;
+	max-height: 388px
+}
+
+.drop-list-container-full--y5tzW {
+	top: 39px
+}
+
+.drop-list--DlObx::-webkit-scrollbar {
+	width: 5px;
+	height: 94px
+}
+
+.drop-list--DlObx::-webkit-scrollbar-track {
+	border-radius: 10px
+}
+
+.drop-list--DlObx::-webkit-scrollbar-thumb {
+	background: rgba(215, 215, 215, .9);
+	border-radius: 10px
+}
+
+.drop-list--DlObx::-webkit-scrollbar-thumb:hover {
+	background: #d7d7d7
+}
+
+.byNewYears--cQAd2 {
+	top: 7px;
+	background: url(https://ion.r2net.com/images/ShipsInTime/New_Years.svg) no-repeat;
+	background-size: 100%;
+	width: 26px !important;
+	height: 19px !important
+}
+
+.byXmas--_2taU {
+	top: 7px;
+	background: url(https://ion.r2net.com/images/ShipsInTime/Christmas.svg) no-repeat;
+	background-size: 100%;
+	width: 26px !important;
+	height: 19px !important
+}
+
+.byValentines--l5EKZ {
+	top: 7px;
+	background: url(https://ion.r2net.com/images/ShipsInTime/New_Years_Valentines_Day.svg) no-repeat;
+	background-size: cover;
+	width: 33px !important;
+	height: 19px !important
+}
+
+.byValentines--l5EKZ+.dropdown-text--mqduI {
+	margin-left: 0
+}
+
+.dropdown-selected-text--UE9UF {
+	display: inline-flex;
+	align-items: center
+}
+
+.drop-text--osNOE .byValentines--l5EKZ {
+	position: relative;
+	top: 0
+}
+
+.icon-bg--PxFlV {
+	height: 36px;
+	width: 36px;
+	background-repeat: no-repeat;
+	-webkit-background-size: contain !important;
+	background-size: contain !important
+}
+
+.dropdown--bQwo5.tabletView--D_VhM {
+	flex-direction: column
+}
+
+.dropdown--bQwo5.tabletView--D_VhM .drop-label--NlZmH {
+	align-self: flex-start;
+	font-size: 11px
+}
+
+.bg-metal-show-all--iErut {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/ALL.svg")
+}
+
+.bg-metal-14k-white--S_bxT {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/14S.svg")
+}
+
+.bg-metal-18k-white--o1j9V {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/18S.svg")
+}
+
+.bg-metal-14k-yellow--RiDRK {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/14G.svg")
+}
+
+.bg-metal-18k-yellow--Ghlwn {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/18G.svg")
+}
+
+.bg-metal-yellow--EHgbI {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/GOLD.svg")
+}
+
+.bg-metal-white--ziops {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/SILVER.svg")
+}
+
+.bg-metal-platinum--vCy6D {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/PT.svg")
+}
+
+.bg-metal-rose--Aw4ih {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/RO.svg")
+}
+
+.bg-unique--W7Z2z {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/jamesallen-unique.png") no-repeat;
+	background-size: contain;
+	width: 65px;
+	height: 26px
+}
+
+.bg-danhov--eskgd {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/danhov_s.png") no-repeat;
+	background-size: contain;
+	width: 65px;
+	height: 14px
+}
+
+.bg-verragio--_CYCu {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/verragio_s.png") no-repeat;
+	background-size: contain;
+	width: 65px;
+	height: 18px
+}
+
+.bg-jeff-cooper--Da5vP {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/jeff-cooper_s.png") no-repeat;
+	background-size: contain;
+	width: 52px;
+	height: 25px
+}
+
+.bg-martin-flyer--ru2py {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/martin-flyer.png") no-repeat;
+	background-size: contain;
+	width: 65px;
+	height: 22px
+}
+
+.bg-sapphire-gemstone--UuS6t {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Sapphire.jpg") no-repeat;
+	width: 24px;
+	height: 24px
+}
+
+.bg-yellow-sapphire-gemstone--oQskJ {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Yellow_Sapphire.png") no-repeat;
+	width: 24px;
+	height: 24px
+}
+
+.bg-emerald-gemstone--Q_LVx {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Emerald.jpg") no-repeat;
+	width: 24px;
+	height: 24px
+}
+
+.bg-ruby-gemstone--lG9Ei {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Ruby.jpg") no-repeat;
+	width: 24px;
+	height: 24px
+}
+
+.bg-pinkSapphire-gemstone--VDl3g {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Pink_Sapphire.jpg") no-repeat;
+	width: 24px;
+	height: 24px
+}
+
+.sort-promo-tooltip--XHnBe {
+	width: auto;
+	height: auto;
+	padding: 16px 8px 22px 18px;
+	position: absolute;
+	bottom: 40px;
+	background-color: #fff;
+	color: #434b52;
+	border: 1px solid #e2e2e7;
+	box-shadow: 0 3px 8px 0 rgba(45, 45, 84, .29);
+	border-radius: 7px;
+	cursor: default;
+	right: -8px;
+	display: flex;
+	align-items: flex-start;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 280px
+}
+
+.no-icon--lTqh7 {
+	margin-left: 0 !important
+}
+
+.sort-promo-tooltip--XHnBe::before,
+.sort-promo-tooltip--XHnBe::after {
+	content: "";
+	position: absolute;
+	bottom: -14px;
+	left: 50%;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #e2e2e7;
+	border-top: none;
+	border-left: none;
+	-webkit-transform: rotate(45deg) translateX(-50%);
+	-moz-transform: rotate(45deg) translateX(-50%);
+	-ms-transform: rotate(45deg) translateX(-50%);
+	-o-transform: rotate(45deg) translateX(-50%);
+	transform: rotate(45deg) translateX(-50%)
+}
+
+.sort-promo-tooltip--XHnBe::before {
+	z-index: -1;
+	background-color: #fff;
+	box-shadow: 0 3px 8px 0 rgba(45, 45, 84, .29)
+}
+
+.sort-promo-tooltip--XHnBe::after {
+	z-index: 10;
+	background-color: #fff
+}
+
+.sort-promo-close-tooltip--yx_if {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	cursor: pointer;
+	font-size: 11px;
+	color: #7a7a7a
+}
+
+.content-wrapper--Bf_21 {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	overflow: hidden
+}
+
+.sort-promo-tooltip-title--TWox7 {
+	font-size: 16px;
+	color: #1a1a1a;
+	font-weight: bold
+}
+
+.sort-promo-tooltip-text--DZpb2 {
+	font-size: 12px;
+	margin-top: 6px
+}
+
+.sort-promo-clickableText--TOgpv {
+	text-decoration: underline;
+	cursor: pointer
+}
+
+.sort-promo-tooltip-icon-fast-shipping--zLZww {
+	background: url(https://ion.r2net.com/images/ShipsInTime/isFirmShipping.svg) no-repeat;
+	width: 45px;
+	height: 30px
+}
+
+.sort-promo-tooltip-icon-shipped-icon-isFirmShipping--K8gCi {
+	background: url(https://ion.r2net.com/images/ShipsInTime/isFirmShipping.svg) no-repeat;
+	width: 45px;
+	height: 30px
+}
+
+.sort-promo-tooltip-icon-valentines--MPAvJ {
+	background: url(https://ion.r2net.com/images/ShipsInTime/New_Years_Valentines_Day.svg) no-repeat;
+	width: 45px;
+	height: 30px
+}
+
+.sort-promo-tooltip-icon-xmas--EFiwU {
+	background: url(https://ion.r2net.com/images/ShipsInTime/Christmas.svg) no-repeat;
+	width: 40px;
+	height: 28px;
+	background-size: cover
+}
+
+.sort-promo-tooltip-icon-new-years--HMXSb {
+	background: url(https://ion.r2net.com/images/ShipsInTime/New_Years.svg) no-repeat;
+	width: 37px;
+	height: 28px
+}
+
+.sort-promo-tooltip-icon-fast-shipping--zLZww.IE--otujX,
+.sort-promo-tooltip-icon-xmas--EFiwU.IE--otujX {
+	color: inherit
+}
+
+@media(max-width: 1366px) {
+	.dropdown--bQwo5 {
+		flex-direction: column
+	}
+
+	.dropdown--bQwo5 .drop-label--NlZmH {
+		align-self: flex-start;
+		font-size: 11px
+	}
+}
+
+.ships-checkbox-container {
+	border: 1px solid #dfdfdf;
+	padding: 10px;
+	padding-left: 0;
+	position: relative;
+	cursor: pointer;
+	font-family: Nunito Sans;
+	display: flex;
+	height: 38px;
+	border-radius: 5000px;
+	margin-right: 10px;
+	padding-right: 15px;
+	box-sizing: border-box;
+	background-color: #fff;
+	z-index: 0
+}
+
+@media screen and (max-width: 1100px) {
+	.ships-checkbox-container {
+		margin-right: 5px
+	}
+}
+
+.ships-checkbox-container:hover {
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2
+}
+
+.ships-checkbox-content {
+	display: flex;
+	align-items: center
+}
+
+.ships-checkbox-content .MuiFormControlLabel-root {
+	margin-right: 0
+}
+
+.ships-checkbox-content .MuiFormControlLabel-root input {
+	display: none
+}
+
+.ships-checkbox-content .MuiIconButton-label input {
+	display: none
+}
+
+.ships-checkbox-content .MuiSvgIcon-root {
+	fill: #89d2f7;
+	width: 24px;
+	height: 24px
+}
+
+.ships-checkbox-container.Valentines .ships-checkbox-content .MuiSvgIcon-root {
+	fill: #ff8080
+}
+
+.ships-checkbox-container.Xmas .ships-checkbox-content .MuiSvgIcon-root {
+	fill: #ff8080
+}
+
+.ships-checkbox-container.NewYears .ships-checkbox-content .MuiSvgIcon-root {
+	fill: #f9ca03
+}
+
+.ships-checkbox-container.FastShipping .ships-checkbox-content .MuiSvgIcon-root {
+	fill: #c5c5c5
+}
+
+.ships-checkbox-container.FastShipping .ships-checkbox-content .PrivateSwitchBase-checked-2 .MuiIconButton-label svg {
+	fill: #ff8080
+}
+
+.shipped-icon-ByNewYearsStones {
+	background-image: url(https://ion.r2net.com/images/ShipsInTime/New_Years.svg);
+	width: 30px;
+	height: 26px;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 2px
+}
+
+.shipped-icon-ByXmasStones {
+	background-image: url(https://ion.r2net.com/images/ShipsInTime/Christmas.svg);
+	width: 30px;
+	height: 25px;
+	background-size: contain;
+	background-repeat: no-repeat
+}
+
+.shipped-icon-ByFastShippingStones {
+	background: url(https://ion.r2net.com/images/ShipsInTime/isFirmShipping.svg) no-repeat bottom;
+	background-size: contain;
+	top: 6px;
+	position: relative;
+	height: 23px;
+	width: 34px;
+	align-self: flex-start
+}
+
+.shipped-icon-ByValentinesStones {
+	background: url(https://ion.r2net.com/images/ShipsInTime/New_Years_Valentines_Day.svg) no-repeat bottom;
+	background-size: contain;
+	top: 6px;
+	position: relative;
+	height: 23px;
+	width: 34px;
+	align-self: flex-start
+}
+
+.shipped-by-tooltip {
+	background-color: #fff;
+	color: #434b52;
+	cursor: default;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.no-icon {
+	margin-left: 0 !important
+}
+
+.ships-checkbox-container .shipped-by-tooltip {
+	bottom: 43px;
+	left: -60px
+}
+
+.ships-by-content-wrapper {
+	display: flex;
+	flex-direction: column;
+	margin-left: 45px
+}
+
+.shipped-by-tooltip-title {
+	font-size: 16px;
+	color: #1a1a1a;
+	font-weight: bold
+}
+
+.shipped-by-tooltip-text {
+	font-size: 12px;
+	width: 250px;
+	margin-top: 10px
+}
+
+.shipped-by-tooltip-image-ByXmasStones {
+	background: url(https://ion.r2net.com/images/ShipsInTime/Christmas.svg) no-repeat center;
+	background-size: contain;
+	width: 40px;
+	height: 28px;
+	position: absolute;
+	left: 13px;
+	top: 15px
+}
+
+.shipped-by-tooltip-image-ByNewYearsStones {
+	background: url(https://ion.r2net.com/images/ShipsInTime/New_Years.svg) no-repeat center;
+	background-size: contain;
+	width: 37px;
+	height: 28px;
+	position: absolute;
+	left: 20px;
+	top: 16px
+}
+
+.shipped-by-tooltip-image-ByFastShippingStones {
+	background: url(https://ion.r2net.com/images/ShipsInTime/isFirmShipping.svg) no-repeat bottom;
+	background-size: contain;
+	width: 45px;
+	height: 30px;
+	position: absolute;
+	left: 12px;
+	top: 17px
+}
+
+.shipped-by-tooltip-image-ByValentinesStones {
+	background: url(https://ion.r2net.com/images/ShipsInTime/New_Years_Valentines_Day.svg) no-repeat bottom;
+	background-size: contain;
+	width: 42px;
+	height: 24px;
+	position: absolute;
+	left: 12px;
+	top: 17px
+}
+
+.tooltipContainer {
+	margin-right: auto;
+	margin-left: 10px
+}
+
+.advanced-filters--FoMd9 {
+	z-index: 1;
+	position: relative;
+	display: flex;
+	align-items: center
+}
+
+.advanced-filters--FoMd9 .advanced-filter-list--Qe1EQ {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: -5px
+}
+
+.advanced-filters--FoMd9 .advanced-filter-list--Qe1EQ .filterBtnContainer--uCWyY {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	position: relative;
+	border-radius: 9999px
+}
+
+.advanced-filters--FoMd9 .advanced-filter-list--Qe1EQ .filterBtnContainer--uCWyY:not(:last-child) {
+	margin-right: 8px
+}
+
+.advanced-filters--FoMd9 .advanced-filter-list--Qe1EQ .filterBtnContainer--uCWyY.opened--ccLBV {
+	background: #f2f2f2
+}
+
+.advanced-filters--FoMd9 .advanced-filter-list--Qe1EQ .filterBtnContainer--uCWyY .filter-text--CEcr9 {
+	font-size: 18px;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 4px;
+	text-indent: 8px;
+	color: #656565
+}
+
+.advanced-filters--FoMd9 .advanced-filter-list--Qe1EQ .filterBtnContainer--uCWyY .filterBtn--btvJ7 {
+	display: flex;
+	text-align: center;
+	cursor: default;
+	border: 1px solid #dfdfdf;
+	border-radius: 9999px;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+	min-width: auto;
+	padding: 6px 20px;
+	height: 18px
+}
+
+.advanced-filters--FoMd9 .advanced-filter-list--Qe1EQ .filterBtnContainer--uCWyY .filterBtn--btvJ7.filtered--tSCqx {
+	padding: 6px 20px 6px 6px
+}
+
+.advanced-filters--FoMd9 .advanced-filter-list--Qe1EQ .filterBtnContainer--uCWyY .filterBtn--btvJ7.filtered--tSCqx .advanced-filter-box--A2kOi.filtered--tSCqx:hover {
+	background-color: #fbfbfb
+}
+
+.advanced-filters--FoMd9 .advanced-filter-list--Qe1EQ .filterBtnContainer--uCWyY .filterBtn--btvJ7:hover {
+	background-color: #f2f2f2;
+	cursor: pointer;
+	border: 1px solid rgba(0, 0, 0, 0)
+}
+
+.advanced-filters--FoMd9 .advanced-filter-list--Qe1EQ .filterBtnContainer--uCWyY .filterBtn--btvJ7 .advanced-filter-box--A2kOi {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	padding: 6px;
+	margin-right: 5px
+}
+
+.advanced-filters--FoMd9 .advanced-filter-list--Qe1EQ .filterBtnContainer--uCWyY .filterBtn--btvJ7 .advanced-filter-box--A2kOi.filtered--tSCqx {
+	cursor: pointer
+}
+
+.advanced-filters--FoMd9 .advanced-filter-list--Qe1EQ .filterBtnContainer--uCWyY .filterBtn--btvJ7 .advanced-filter-box--A2kOi.filtered--tSCqx:hover {
+	background-color: #f2f2f2
+}
+
+.desktop-mp--gwCva {
+	/*!*/
+}
+
+.advanced-btn--i96ag {
+	border-bottom: 1px dashed;
+	cursor: pointer;
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: top
+}
+
+.head--tLSLo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-right: 12px;
+	margin-top: -5px
+}
+
+.head--tLSLo.hide--SD8jc {
+	width: auto
+}
+
+.head--tLSLo .advsTitle--XLpBs {
+	min-width: 116px;
+	user-select: none;
+	width: 100%;
+	display: flex;
+	cursor: pointer;
+	font-size: 14px;
+	line-height: 18px;
+	color: #656565;
+	margin-right: 10.5px;
+	height: 31px;
+	margin-right: 10.5px;
+	align-items: center
+}
+
+.head--tLSLo .advBtnWrap--RBkzG {
+	position: relative;
+	margin-right: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -1px
+}
+
+.head--tLSLo .advBtnWrap--RBkzG .openClosBtn--Og0zl {
+	stroke: #b2b2b2;
+	fill: #b2b2b2;
+	width: 25px;
+	height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.head--tLSLo .advBtnWrap--RBkzG .ind--ycw6H {
+	position: absolute;
+	top: 5px;
+	left: 24px;
+	transform: translate(-50%, -50%);
+	width: 11px;
+	height: 11px
+}
+
+.head--tLSLo:hover .openClosBtn--Og0zl {
+	stroke: #656565;
+	fill: #656565;
+	cursor: pointer
+}
+
+.advsTitle--XLpBs {
+	user-select: none;
+	cursor: pointer;
+	width: 120px
+}
+
+.advancedBtn--wtdnh {
+	cursor: pointer;
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: top
+}
+
+.arrow-left--zlXVA {
+	width: 0;
+	height: 0;
+	border-top: 3px solid rgba(0, 0, 0, 0);
+	border-bottom: 3px solid rgba(0, 0, 0, 0);
+	border-right: 3px solid #1b1b1b;
+	margin: 6px 7px;
+	display: inline-block;
+	vertical-align: top
+}
+
+.openClosBtn--Og0zl {
+	stroke: #b2b2b2;
+	fill: #b2b2b2;
+	width: 23px;
+	height: 24px;
+	margin-right: 5px
+}
+
+.openClosBtn--Og0zl:hover {
+	stroke: #656565;
+	fill: #656565;
+	cursor: pointer
+}
+
+.withDot--VYF5U {
+	width: 28px;
+	height: 25px
+}
+
+.filterCardHead--xS207 {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #656565;
+	align-self: flex-start;
+	padding: 0 12px 0 15px;
+	box-sizing: border-box
+}
+
+.filterName--_Jxbe {
+	color: #1b1b1b;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: left;
+	cursor: pointer
+}
+
+.closeFilter--T3xnI {
+	width: 28px;
+	height: 28px;
+	padding: 6px;
+	box-sizing: border-box
+}
+
+.closeFilter--T3xnI:hover {
+	cursor: pointer;
+	background-color: #f2f2f2;
+	border-radius: 50%
+}
+
+.arrow-right--Rbl1O {
+	width: 0;
+	height: 0;
+	border-top: 3px solid rgba(0, 0, 0, 0);
+	border-bottom: 3px solid rgba(0, 0, 0, 0);
+	border-left: 3px solid #1b1b1b;
+	margin: 7px;
+	display: inline-block;
+	vertical-align: top
+}
+
+.arrowDiv--ZkOFL {
+	height: 0px;
+	width: 0px;
+	border: none;
+	border-bottom: none;
+	border-top: 5px solid #a1a1a1;
+	border-left: 5px solid rgba(0, 0, 0, 0);
+	border-right: 5px solid rgba(0, 0, 0, 0);
+	margin-right: 3px;
+	cursor: pointer
+}
+
+.arrowDiv--ZkOFL:hover {
+	cursor: pointer
+}
+
+.advanced-filter-item--sSUXH {
+	font-size: 14px;
+	color: #656565;
+	font-weight: 400;
+	padding-right: 6px;
+	cursor: pointer
+}
+
+.advanced-filter-container--jdpxc {
+	position: absolute;
+	top: 105%;
+	left: -1px;
+	white-space: pre;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, .15);
+	background-color: #fff;
+	border-radius: 4px;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	word-break: break-all;
+	display: flex;
+	z-index: 20;
+	max-width: 374px;
+	min-width: 250px
+}
+
+.advanced-filter-container--jdpxc.wideWrapper--STLXH {
+	max-width: none;
+	width: 544px
+}
+
+.advanced-filter-container--jdpxc.wideWrapper--STLXH .filterCardHead--xS207 {
+	max-width: 544px
+}
+
+.advanced-filter-container--jdpxc.priceFilter--F2n2X {
+	min-width: 374px
+}
+
+.advanced-filter-container--jdpxc.priceFilter--F2n2X .filterCardHead--xS207 {
+	min-width: 100%
+}
+
+.advanced-filter-container--jdpxc .bordered--rTsmB {
+	min-width: 100%;
+	padding: 10px;
+	box-sizing: border-box
+}
+
+.advanced-filter-container--jdpxc .bordered--rTsmB.fixed-width--yKkMa {
+	width: 374px;
+	padding: 10px 25px
+}
+
+.advanced-filter-container--jdpxc .borderedNoPadding--VvdCB {
+	min-width: 100%;
+	padding: 0;
+	box-sizing: border-box
+}
+
+.advanced-filter-container--jdpxc .borderedNoPadding--VvdCB.fixed-width--yKkMa {
+	width: 374px;
+	padding: 10px 25px
+}
+
+.scroll-flex--to4_3 {
+	display: flex;
+	flex-flow: column wrap;
+	padding: 10px 10px;
+	margin: 0 10px;
+	max-height: calc(50vh - 93px);
+	overflow-y: scroll;
+	transition: max-height .5s cubic-bezier(0.46, 0, 0.93, 0.97)
+}
+
+.outer-tooltip-modal--PUHh9 {
+	padding: 0;
+	width: 90%;
+	max-width: 380px;
+	box-sizing: border-box;
+	font-family: "Nunito Sans";
+	transform: translate(-50%, 0);
+	top: 7%
+}
+
+.close--B7wan {
+	display: inline-block;
+	font-family: JamesallenFonts;
+	font-size: 13px;
+	top: 0;
+	right: 0;
+	padding: 11px
+}
+
+.fade-enter--t_duz {
+	opacity: 0;
+	width: 0
+}
+
+.fade-enter-active--BAObB {
+	opacity: 1;
+	width: auto;
+	transition: opacity .3s
+}
+
+.fade-leave--zQvfa {
+	opacity: 1
+}
+
+.fade-leave-active--I_qLd {
+	opacity: 0;
+	transition: opacity .3s
+}
+
+.wideGallery--DqFji .icon--t0mTm {
+	height: 28px;
+	width: 28px;
+	position: absolute;
+	right: 12px
+}
+
+.wideGallery--DqFji .icon-garnet--qmbYk {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Jan_Garnet.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-amethyst--_XbeA {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Feb_Amethyst.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-aquamarine--YRUeI {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Mar_Aquamarine.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-diamond--hZvPx {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Apr_Diamond.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-emerald--XGrjw {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/May_Emerald.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-whiteTopaz--lpxqH {
+	background: url("https://ion.r2net.com/Images/FineJewelry/White_Topaz.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-smokyQuartz--RP77J {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Smoky_Quartz.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-pearl--YQ144 {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Jun_Pearl.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-ruby--vifz2 {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Jul_Ruby.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-peridot--UNYA4 {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Aug_Peridot.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-sapphire--cha2E {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Sept_Sapphire.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-opal--FrHQ4 {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Oct_Opal.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-cirtine--RhoBH {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Nov_Citrine.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-blueTopaz--JcFiS {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Dec_Blue Topaz.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-Earth-Created_Diamond--E8k6y {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Earth-Created_Diamond.svg") no-repeat;
+	height: 19px;
+	background-position: 2px 0
+}
+
+.wideGallery--DqFji .icon-Lab_Created_diamond--VMLqL {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Lab_Created_diamond.svg") no-repeat;
+	height: 19px;
+	background-position: 2px 0
+}
+
+.wideGallery--DqFji .icon-garnet-gemstone--dX3td {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Garnet_2.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-amethyst-gemstone--qsdo7 {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Amethyst.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-aquamarine-gemstone--w24l4 {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Aquamarine.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-emerald-gemstone--I1lcQ {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Emerald.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-ruby-gemstone--ICptd {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Ruby.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-peridot-gemstone--u5nhC {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Peridot.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-sapphire-gemstone--fMhV0 {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Sapphire.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-opal-gemstone--oxKEQ {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Opal.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-citrine-gemstone--BTbT8 {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Citrine.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-blueTopaz-gemstone--o2Abb {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Blue_Topaz.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-no-stone--LyGN8 {
+	background: url("https://ion.r2net.com/Images/FineJewelry/no-stone.jpg?v=1") no-repeat
+}
+
+.wideGallery--DqFji .icon-morganite-gemstone--w4W3b {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Morganite.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-pinkSapphire-gemstone--tuT1q {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Pink_Sapphire.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-pinkTourmaline-gemstone--HwWy5 {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Pink_Tourmaline.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-tanzanite-gemstone--Pnzkh {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Tanzanite.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-tsavorite-gemstone--vdYqS {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Tsavorite.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-turquoise-gemstone--yrI23 {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Turquoise_2.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-prasiolite-gemstone--S2C0T {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Prasiolite.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-moonQuartz-gemstone--S11Tx {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Moon_Quartz.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-multi-gemstone--x5JiG {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Multi.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-others-gemstone--YCI6X {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Others.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-akoya-gemstone--zlBT8 {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Akoya_Pearl_2.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-freshWaterPearl-gemstone--LXvtf {
+	background: url("https://ion.r2net.com/Images/FineJewelry/FreshWater_Pearl.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-tahitianPearl-gemstone--xPYUe {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Tahitian_Pearl_2.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-southSeaPearl-gemstone--zFJxY {
+	background: url("https://ion.r2net.com/Images/FineJewelry/South_Sea_Pearl_2.jpg") no-repeat
+}
+
+.wideGallery--DqFji .icon-Diamond_Studs--bhIoR {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Diamond_Studs.svg") no-repeat center;
+	background-size: contain;
+	height: 20px
+}
+
+.wideGallery--DqFji .icon-NecklacesDiamond_Pendants--L_euC {
+	background: url("https://ion.r2net.com/Images/FineJewelry/NecklacesDiamond_Pendants.svg") no-repeat center;
+	background-size: contain;
+	width: 16px;
+	height: 26px;
+	margin-right: 6px
+}
+
+.wideGallery--DqFji .icon-Bracelets--j4Uw4 {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Bracelets.svg") no-repeat center;
+	background-size: contain;
+	height: 24px;
+	width: 24px;
+	margin-right: 2px
+}
+
+.wideGallery--DqFji .icon-Diamond_Rings--Wuzku {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Diamond_Rings.svg") no-repeat center;
+	background-size: contain;
+	width: 32px;
+	height: 22px;
+	margin-right: -2px
+}
+
+.wideGallery--DqFji [class*=" bg-metal"],
+.wideGallery--DqFji [class^=bg-metal] {
+	background-position: -8px -7px;
+	background-size: 154%
+}
+
+.wideGallery--DqFji .bg-metal-show-all--xTPgt {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/ALL.svg")
+}
+
+.wideGallery--DqFji .bg-metal-14k-white--dgLtf {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/14S.svg")
+}
+
+.wideGallery--DqFji .bg-metal-18k-white--GhDIj {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/18S.svg")
+}
+
+.wideGallery--DqFji .bg-metal-14k-yellow--kNGa8 {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/14G.svg")
+}
+
+.wideGallery--DqFji .bg-metal-18k-yellow--Z6oCR {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/18G.svg")
+}
+
+.wideGallery--DqFji .bg-metal-platinum--z8RrA {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/PT.svg")
+}
+
+.wideGallery--DqFji .bg-metal-rose--w7SbS {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/RO.svg")
+}
+
+.wideGallery--DqFji .icon-unique--CSJWU {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/jamesallen-unique.png") no-repeat;
+	background-size: contain
+}
+
+.wideGallery--DqFji .icon-danhov--CaqsT {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/danhov_s.png") no-repeat;
+	background-size: contain
+}
+
+.wideGallery--DqFji .icon-verragio--a8Ksh {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/verragio_s.png") no-repeat;
+	background-size: contain
+}
+
+.wideGallery--DqFji .icon-jeff-cooper--zSEY2 {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/jeff-cooper_s.png") no-repeat;
+	background-size: contain
+}
+
+.wideGallery--DqFji .icon-martin-flyer--v2doj {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/martin-flyer.png") no-repeat;
+	background-size: contain
+}
+

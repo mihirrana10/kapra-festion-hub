@@ -1,0 +1,965 @@
+
+/*!! ver.1.1 EducationCenter.css */
+.ch-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%
+}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+	display: table
+}
+
+.ch-grid:after {
+	clear: both
+}
+
+.ch-grid li {
+	display: inline-block;
+	height: 170px;
+	margin: 20px;
+	width: 170px
+}
+
+.ch-item {
+	width: 170px;
+	background-position: -15px -15px;
+	height: 170px;
+	border-radius: 50%;
+	position: relative;
+	margin: auto;
+	cursor: default;
+	box-shadow: inset 0 0 0 0 rgba(200, 95, 66, .4), inset 0 0 0 16px rgba(255, 255, 255, .6), 0 1px 2px rgba(0, 0, 0, .1);
+	transition: all .4s ease-in-out
+}
+
+.ch-img-1 {
+	background-image: url(http://ion.r2net.com/images/4.jpg)
+}
+
+.LoosDiamonds {
+	background-image: url("https://ion.r2net.com/Images/Education/dia0001.jpg");
+	background-position: -10px -10px !important
+}
+
+.EducationCategories .Engagement {
+	background-image: url("https://ion.r2net.com/Images/Education/eng0001.jpg");
+	background-position: -10px -11px !important
+}
+
+.EducationCategories .Wedding {
+	background-image: url("https://ion.r2net.com/Images/Education/wed0005.jpg");
+	background-position: -8px -10px !important
+}
+
+.EducationCategories .Gemstones {
+	background-image: url("https://ion.r2net.com/Images/Education/gem0004.jpg")
+}
+
+.EducationCategories .Jewelry {
+	background-image: url("https://ion.r2net.com/Images/Education/ear0003.jpg");
+	background-position: -10px -19px !important
+}
+
+.EducationCategories .Consulting {
+	background-image: url("https://ion.r2net.com/Images/Education/eng0001.jpg")
+}
+
+.EducationCategories .Engagement:hover {
+	background-image: url("https://ion.r2net.com/images/eng-round.gif")
+}
+
+.EducationCategories .LoosDiamonds:hover {
+	background-image: url("https://ion.r2net.com/images/diam_round.gif")
+}
+
+.EducationCategories .Wedding:hover {
+	background-image: url("https://ion.r2net.com/images/wed_round.gif")
+}
+
+.EducationCategories .Gemstones:hover {
+	background-image: url("https://ion.r2net.com/images/gem_round.gif")
+}
+
+.EducationCategories .Jewelry:hover {
+	background-image: url("https://ion.r2net.com/images/ear_round.gif")
+}
+
+.EducationCategories .Consulting:hover {
+	background-image: url("https://ion.r2net.com/images/diam_round.gif")
+}
+
+.ch-img-3 {
+	background-image: url(http://ion.r2net.com/images/6.jpg)
+}
+
+.ch-info {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	opacity: 0;
+	transition: all .4s ease-in-out;
+	transform: scale(0);
+	backface-visibility: hidden
+}
+
+.ch-info h3 {
+	color: #fff;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 21px;
+	height: 110px;
+	margin: auto;
+	padding: 65px 0 0;
+	position: relative;
+	text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, .3);
+	text-transform: uppercase
+}
+
+.ch-info p {
+	color: #fff;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255, 255, 255, .5)
+}
+
+.ch-info p a {
+	display: block;
+	color: rgba(255, 255, 255, .7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif
+}
+
+.ch-info p a:hover {
+	color: rgba(255, 242, 34, .8)
+}
+
+.ch-item:hover {
+	box-shadow: 0 0 0 110px rgba(0, 0, 0, .4) inset
+}
+
+.ch-item:hover .ch-info {
+	opacity: 1;
+	transform: scale(1)
+}
+
+.ed-content {
+	overflow: hidden;
+	clear: both;
+	padding-left: 21px
+}
+
+.ed-top-sec {
+	max-width: none !important;
+	padding: 0 !important;
+	margin-bottom: -82px !important;
+	position: relative
+}
+
+#educationNav h1 {
+	font-size: 43px;
+	margin-top: 0;
+	padding: 0 !important;
+	margin-bottom: 0
+}
+
+#educationNav h2 {
+	font-size: 15px;
+	margin: 0;
+	text-transform: uppercase
+}
+
+#educationNav .SubCategoryMenu {
+	position: relative;
+	height: 46px;
+	font-size: 15px;
+	line-height: 46px;
+	padding: 0;
+	text-transform: uppercase
+}
+
+.top-bar {
+	height: 46px;
+	box-shadow: 0 2px 3px 0 rgba(20, 26, 46, .17);
+	clear: both;
+	position: relative;
+	background: #fff
+}
+
+.second-bar {
+	height: 36px;
+	width: 100%;
+	background-color: rgba(250, 250, 250, .9);
+	box-shadow: 0 17px 53px 0 rgba(20, 26, 46, .17)
+}
+
+.SubCategotyDropDown li {
+	display: inline-block;
+	vertical-align: middle
+}
+
+.SubCategotyDropDown li a {
+	padding: 0 6px
+}
+
+#educationLeft {
+	float: left;
+	width: 260px;
+	margin-right: 85px
+}
+
+#educationLeft h3 {
+	margin-top: 0
+}
+
+#educationMain h1 {
+	font-size: 27px;
+	margin-bottom: 25px;
+	margin-top: 0;
+	line-height: 30px
+}
+
+#educationMain .weight-container {
+	padding-left: 100px
+}
+
+#educationMain h3 {
+	font-size: 20px;
+	padding: 5px 0 5px 0;
+	margin: 0
+}
+
+#educationMain>div {
+	float: left;
+	max-width: 615px;
+	padding-top: 0
+}
+
+.canvasWrapper {
+	position: relative;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	border: none
+}
+
+.education-desktop-container {
+	max-width: none !important;
+	background-image: url('https://ion.r2net.com/Images/Education/education-desktop.jpg');
+	background-size: cover;
+	background-position: center
+}
+
+.education-desktop {
+	overflow: hidden;
+	padding-bottom: 73px;
+	padding-right: 30px;
+	padding-left: 30px;
+	max-width: 1480px;
+	margin: 0 auto
+}
+
+ul.EducationCategories {
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	display: block
+}
+
+ul.EducationCategories li {
+	width: 20%;
+	float: left
+}
+
+ul.EducationCategories li:first-child>div {
+	margin-left: 0
+}
+
+ul.EducationCategories li:last-child>div {
+	margin-right: 0
+}
+
+ul.EducationCategories li>div {
+	transition: all .2s;
+	background-color: rgba(255, 255, 255, .7);
+	box-shadow: 0 1px 2px 0 rgba(44, 59, 108, .72);
+	text-align: center;
+	padding: 60px 0;
+	margin: 0 8px;
+	font-family: Nunito Sans;
+	color: #505050;
+	font-size: 25px;
+	text-transform: uppercase
+}
+
+ul.EducationCategories li>div:hover {
+	box-shadow: rgba(0, 0, 0, .247059) 0 14px 45px, rgba(0, 0, 0, .219608) 0 10px 18px
+}
+
+ul.EducationCategories li .Canvas {
+	border: 0
+}
+
+ul.EducationCategories li .canvasWrapper {
+	margin-bottom: 20px
+}
+
+ul.EducationCategories li .divToSlide {
+	border-radius: 102px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	display: none
+}
+
+ul.EducationCategories li.DropDown {
+	margin-bottom: 28px;
+	width: 100%;
+	margin-top: -16px
+}
+
+.ed-top-sec+.PaneContainer {
+	min-width: 980px !important;
+	display: table;
+	width: 100% !important;
+	margin: 0 auto !important
+}
+
+.education-desktop h1 {
+	text-align: center;
+	font-size: 51px;
+	margin: 0;
+	line-height: 100px;
+	color: rgba(23, 23, 23, .85);
+	text-transform: uppercase
+}
+
+.education-desktop .read-more {
+	font-family: Nunito Sans;
+	border: 1px solid #505050;
+	box-sizing: border-box;
+	background-color: rgba(80, 80, 80, 0);
+	width: 157px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 13px;
+	color: #505050;
+	height: 40px;
+	padding: 0
+}
+
+.title1 {
+	display: inline-block;
+	white-space: nowrap
+}
+
+.title1:before {
+	right: 8px
+}
+
+.title1:after {
+	left: 8px
+}
+
+@media(max-width:1300px) {
+	#educationLeft {
+		display: none
+	}
+
+	.SubCategotyDropDown li a {
+		padding: 0 3px;
+		font-size: 13.5px
+	}
+
+	.ed-top-sec+.PaneContainer {
+		min-width: 980px !important
+	}
+}
+
+@media(max-width:1200px) {
+	.SubCategotyDropDown li a {
+		font-size: 12.3px
+	}
+}
+
+@media(max-width:1100px) {
+	.SubCategotyDropDown li a {
+		font-size: 10.5px
+	}
+}
+
+@media(max-width:980px) {
+	.ed-top-sec+.PaneContainer {
+		min-width: 980px !important
+	}
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) {
+	.SubCategotyDropDown li a {
+		padding: 0 1px;
+		font-size: 9px
+	}
+}
+
+@media only screen and (min-device-width:1024px) and (max-device-width:1366px) and (orientation:portrait) {
+	.SubCategotyDropDown li a {
+		padding: 0 3px;
+		font-size: 10.5px
+	}
+}
+
+@media(max-width:1350px) {
+	ul.EducationCategories li>div {
+		font-size: 23px
+	}
+
+	.title1:before,
+	.title1:after {
+		display: none
+	}
+}
+
+.WideBody span.title2 {
+	display: block;
+	font-weight: 700 !important
+}
+
+ul.EducationCategories h3 {
+	margin-bottom: 32px;
+	margin-top: 29px;
+	font-size: 1em
+}
+
+ul.EducationCategories span.Icon,
+#educationNav span.Icon {
+	background-position: -25px -21px;
+	border-radius: 89px;
+	height: 138px;
+	margin: auto auto 0;
+	overflow: hidden;
+	width: 138px;
+	cursor: pointer
+}
+
+ul.EducationCategories p {
+	color: #9e9e9e;
+	display: block;
+	font-size: 10px;
+	height: 144px;
+	line-height: 16px;
+	text-align: justify;
+	text-transform: uppercase;
+	width: 100%
+}
+
+li.DropDown .SubCategotyDropDown {
+	display: none
+}
+
+.SubCategotyDropDown .arrow {
+	background: url("http://ion.r2net.com/images/edu_arrow_up.png") repeat scroll 0 0 transparent !important;
+	height: 11px;
+	position: absolute;
+	top: -10px;
+	width: 22px;
+	left: 120px
+}
+
+.SubCategotyDropDown .arrow.down {
+	left: 35% !important;
+	top: -16px;
+	background: url("http://ion.r2net.com/images/edu_arrow_down.png") repeat scroll 0 0 transparent !important
+}
+
+.SubCategotyDropDown #Text {
+	float: right;
+	height: 120%;
+	line-height: 159%;
+	margin-left: 10px;
+	margin-right: 60px;
+	text-align: left;
+	width: 450px
+}
+
+#educationNav li ul li a {
+	cursor: pointer
+}
+
+#educationNav li {
+	cursor: pointer
+}
+
+#educationNav li:hover>a {
+	font-weight: bold
+}
+
+.Selected>a,
+#educationNav li a.Disabled {
+	font-weight: bold;
+	background-color: inherit;
+	color: inherit
+}
+
+#educationNav .SubCategoryMenu>li.Selected>a:before {
+	background-color: #ff8080
+}
+
+#educationNav .SubCategoryMenu>li.Selected>a:before,
+#educationNav .SubCategoryMenu>li:hover>a:before {
+	content: '';
+	height: 4px;
+	width: 100%;
+	position: absolute;
+	top: 42px
+}
+
+.ed-right-side {
+	display: table-cell
+}
+
+.no-sub-menu #educationNav {
+	height: 46px
+}
+
+#educationNav {
+	height: 82px;
+	overflow: hidden;
+	margin-bottom: 14px;
+	padding-left: 10px
+}
+
+#educationNav a {
+	display: block
+}
+
+#educationNav .SubCategotyDropDown .arrow {
+	left: 600px
+}
+
+.ed-side-menu .pane-title>a {
+	text-decoration: none;
+	height: 36px;
+	padding: 0;
+	font-size: 18px;
+	text-align: center;
+	line-height: 36px;
+	text-transform: uppercase;
+	background: #ff8080;
+	color: #fff
+}
+
+.ed-top-sec.stick,
+#educationNav.stick,
+#side-menu-content.stick {
+	position: fixed;
+	top: 0
+}
+
+a.link-title-text {
+	display: block
+}
+
+.Selected a.link-title-text {
+	height: 46px;
+	overflow: hidden
+}
+
+.no-sub-menu .second-bar {
+	display: none
+}
+
+.no-sub-menu .ed-top-sec {
+	margin-bottom: -46px !important
+}
+
+.Selected a.link-title-text.has-sub-menu {
+	height: auto
+}
+
+.ed-top-sec+.PaneContainer {
+	min-width: 1280px
+}
+
+.ed-top-sec.stick {
+	z-index: 120;
+	width: 100% !important
+}
+
+#educationNav.stick+span {
+	display: block;
+	height: 92px
+}
+
+.no-sub-menu #educationNav.stick+span {
+	height: 56px
+}
+
+#educationNav.stick {
+	z-index: 121
+}
+
+#side-menu-content.stick {
+	width: 279px;
+	z-index: 122;
+	background: #fff
+}
+
+.ed-side-menu.on-footer {
+	vertical-align: bottom;
+	z-index: 123
+}
+
+.ed-side-menu.on-footer #side-menu-content.stick {
+	position: static
+}
+
+.ed-side-menu {
+	display: table-cell;
+	width: 279px;
+	background: #fff;
+	box-shadow: 0 3px 27px 0 rgba(20, 26, 46, .17);
+	position: relative;
+	vertical-align: top
+}
+
+.ed-side-menu a {
+	display: block;
+	overflow: hidden;
+	border-bottom: 1px solid #d7d7d7;
+	padding: 10px
+}
+
+.ed-side-menu a>span.s-2 {
+	display: block;
+	padding: 8px;
+	height: 57px
+}
+
+.ed-side-menu a>span {
+	border-right: 5px solid #fff
+}
+
+.ed-side-menu a.selected>span,
+.ed-side-menu a.selected:hover>span {
+	border-right: 5px solid #ff8081
+}
+
+.ed-side-menu a.selected>span,
+.ed-side-menu a:hover>span {
+	background-color: #f7f7f7
+}
+
+.ed-side-menu .ed-side-menu-text {
+	font-family: Nunito Sans;
+	color: #505050;
+	font-size: 15px;
+	display: inline-block;
+	vertical-align: middle;
+	text-transform: uppercase;
+	line-height: 57px
+}
+
+.ed-side-menu a.selected .ed-side-menu-text,
+.ed-side-menu a:hover .ed-side-menu-text {
+	font-weight: bold !important
+}
+
+.ed-side-menu a img {
+	width: 57px;
+	border-radius: 40px;
+	vertical-align: middle;
+	margin-right: 9px
+}
+
+.SubCategotyDropDown ul {
+	list-style: none outside none;
+	margin: 0
+}
+
+.SubCategotyDropDown li.Selected .secondSubDropdown {
+	left: 0;
+	top: 46px;
+	padding: 0;
+	text-transform: none
+}
+
+.SubCategotyDropDown .secondSubDropdown {
+	position: absolute;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	padding-left: 0
+}
+
+ul.EducationCategories .SubCategotyDropDown li {
+	height: auto;
+	margin: 0 0 5px;
+	width: 100%
+}
+
+ul.EducationCategories .SubCategotyDropDown li a {
+	color: #ddd;
+	cursor: pointer;
+	font-size: 13px;
+	height: auto;
+	text-decoration: none;
+	font-weight: bold
+}
+
+ul.EducationCategories .SubCategotyDropDown li a:hover {
+	color: #9c9c9c
+}
+
+#education p {
+	font-size: 12px;
+	line-height: 140%
+}
+
+#education h2 {
+	padding-top: 10px
+}
+
+#leftCenter {
+	width: 670px
+}
+
+#leftCenter a {
+	float: right;
+	text-decoration: underline;
+	margin-top: 0;
+	z-index: 2
+}
+
+.learn-more {
+	position: relative;
+	top: -1px;
+	z-index: 5
+}
+
+#rightCenter {
+	float: right
+}
+
+#rightCenter #eduCent,
+#rightCenter #hr2 {
+	display: none
+}
+
+#rightCenter #videosDesc {
+	clear: both;
+	padding: 10px 0;
+	width: 222px
+}
+
+#rightCenter #howTo {
+	font-size: 20px
+}
+
+#rightCenter #videos a {
+	margin-bottom: 20px;
+	height: 80px
+}
+
+#rightCenter #videos a img {
+	width: 110px;
+	height: 80px
+}
+
+#rightCenter #videos a p {
+	width: 120px
+}
+
+#educatioBottom {
+	clear: both;
+	margin-bottom: 130px;
+	padding: 0 !important
+}
+
+#seeAlso {
+	margin-top: 55px
+}
+
+#seeAlso p {
+	float: left;
+	font-size: 10px;
+	margin-right: 2px;
+	padding-top: 3px
+}
+
+#hr {
+	float: left;
+	width: 900px;
+	height: 1px;
+	margin-top: 19px;
+	margin-left: 4px;
+	background-color: #ddd
+}
+
+#ringSize,
+#craftsmanship {
+	float: left
+}
+
+#ringSize {
+	width: 290px;
+	margin-right: 90px
+}
+
+#craftsmanship {
+	width: 270px
+}
+
+#ringSize h2,
+#craftsmanship h2 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-weight: normal
+}
+
+#ringSize p,
+#craftsmanship p {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 12px
+}
+
+#ringSize a,
+#craftsmanship a {
+	float: right;
+	text-decoration: underline
+}
+
+#ringSize p a {
+	float: none
+}
+
+#question {
+	display: inline-block;
+	background-color: #f9f9f9;
+	border: 1px solid #e4e4e4;
+	width: 230px;
+	height: 35px;
+	margin-left: 70px;
+	margin-top: 13px;
+	text-align: center;
+	padding-top: 25px;
+	color: #656565;
+	text-decoration: underline
+}
+
+.CategoryText {
+	margin-bottom: 40px;
+	position: relative;
+	top: -20px
+}
+
+.CategoryText h1 {
+	font-size: 35px !important;
+	padding-bottom: 20px !important
+}
+
+.CategoryText h2 {
+	font-size: 22px !important;
+	margin: 15px 0 10px 0 !important
+}
+
+.CategoryText p {
+	margin: 0 0 10px 0 !important;
+	line-height: 20px
+}
+
+.CategoryText li {
+	line-height: 20px
+}
+
+.MetalsCaring {
+	padding-top: 20px
+}
+
+#educationMain>div.canada-mark {
+	max-width: 980px;
+	padding-bottom: 22px
+}
+
+.canada-mark-content sup {
+	text-transform: uppercase
+}
+
+.canada-mark h1 {
+	text-align: center;
+	line-height: 50px;
+	display: inline-block;
+	padding-top: 17px;
+	text-transform: capitalize;
+	font-variant: small-caps
+}
+
+.canada-mark h1 i {
+	position: absolute;
+	left: 74px;
+	top: -7px;
+	font-size: 24px
+}
+
+.canada-mark .canada-flag,
+.canada-mark .canada-leaf {
+	font-family: JamesAllenFonts;
+	color: #f00;
+	display: block;
+	float: left
+}
+
+.canada-mark .canada-flag {
+	font-size: 50px
+}
+
+.canada-mark .canada-leaf {
+	font-size: 30px;
+	padding-right: 7px
+}
+
+.canada-mark h2 {
+	margin-bottom: 21px !important
+}
+
+.canada-mark p {
+	margin-bottom: 36px !important
+}
+
+.canada-mark img {
+	max-width: 100%
+}
+
+.bottom-imgs>div {
+	width: 33.3%;
+	float: left;
+	box-sizing: border-box
+}
+
+.canada-mark .canada-mark-big-button {
+	background-color: #ff8080;
+	color: #fff;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	margin: 28px auto 0;
+	text-transform: uppercase;
+	width: 285px;
+	cursor: pointer;
+	display: inline-block
+}

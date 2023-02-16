@@ -1,0 +1,7 @@
+{
+    "require": {
+        "stripe/stripe-php": "^9.6",
+        "google/apiclient": "2.12.1",
+        "facebook/graph-sdk": "^5.7"
+    }
+}

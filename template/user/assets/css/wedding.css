@@ -1,0 +1,1860 @@
+/*!! ver.1.1 WeddingRingsStyle.css */
+#weddingringSplash .dsWideBunner {
+	clear: both;
+	height: 574px;
+	background-color: #fafafa;
+	overflow: hidden
+}
+
+#weddingringSplash .innerCentered {
+	height: 100%;
+	position: relative;
+	width: 980px;
+	margin: 0 auto
+}
+
+#weddingringSplash .topWideBanner {
+	position: absolute;
+	max-height: 574px;
+	bottom: 0;
+	left: 54%;
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%)
+}
+
+#weddingringSplash .sdBannerTitleContainer {
+	position: absolute;
+	text-align: center;
+	top: 10%;
+	right: 23%;
+	-moz-transform: translateX(50%);
+	-ms-transform: translateX(50%);
+	-o-transform: translateX(50%);
+	-webkit-transform: translateX(50%);
+	transform: translateX(50%)
+}
+
+@media screen and (min-width:1300px) {
+	#weddingringSplash .topWideBanner {
+		max-height: initial;
+		left: 49%;
+		top: -9%
+	}
+}
+.main-sub-title {
+    font-family: "Nunito Sans";
+    color: #1b1b1b;
+    text-transform: uppercase;
+    font-size: 26px;}
+
+#weddingringSplash .PlayfairDisplayRegular {
+	font-family: PlayfairDisplay;
+	color: #6e6963
+}
+
+#weddingringSplash .middel-line {
+	background-color: #6e6963;
+	height: 1px;
+	width: 99px;
+	display: inline-block;
+	margin-bottom: 13px;
+	margin-left: 15px;
+	margin-right: 15px
+}
+
+#weddingringSplash .sdBannerTitle2 {
+	font-size: 19px
+}
+
+.shop-wedding-buttons {
+	display: flex;
+	justify-content: space-between
+}
+
+#weddingringSplash .sdTitleBtn {
+	background-color: #ff8080;
+	color: #fff;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	margin: 28px auto 0;
+	text-transform: uppercase;
+	width: 210px;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Nunito Sans
+}
+
+.asExploreDiamshapeRight {
+	display: table-cell;
+	vertical-align: top;
+	text-align: center;
+	background: none repeat scroll 0% 0% #f9f7f4;
+	width: 100%;
+	max-width: 863px
+}
+
+.sdbridalcontainer {
+	background-image: url("https://ion.r2net.com/images/splash/EternityRingsBanner.jpg");
+	background-position: center center;
+	clear: both;
+	height: 608px;
+	position: relative;
+	color: #fff;
+	text-align: center
+}
+
+.bridal-container-box {
+	width: 570px;
+	color: #656565 !important;
+	line-height: 17px;
+	padding: 20px;
+	margin: 0 auto
+}
+
+.bridalsettext a {
+	text-decoration: underline
+}
+
+.ExploreWedding {
+	height: 350px !important;
+	overflow: auto;
+	width: 100%;
+	margin-top: 16px !important;
+	position: absolute
+}
+
+.OurCommLineSPL2 {
+	margin: 43px auto 45px !important
+}
+
+@media screen and (max-width:1100px) {
+	#weddingringSplash .sdBannerTitleContainer {
+		right: 23%
+	}
+
+	.general-paragraph.responsive-style {
+		font-size: 14px
+	}
+
+	#weddingringSplash .sdTitleBtn {
+		max-width: 210px;
+		width: 48%;
+		font-size: 11px;
+		margin: 30px 0 0 0 !important
+	}
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) {
+	#weddingringSplash .topWideBanner {
+		left: 30%
+	}
+
+	#weddingringSplash .sdBannerTitleContainer {
+		right: 25%
+	}
+}
+
+@media only screen and (min-device-width:1024px) and (max-device-width:1366px) and (orientation:landscape) {
+	#weddingringSplash .topWideBanner {
+		left: 54%
+	}
+
+	#weddingringSplash .sdBannerTitleContainer {
+		right: 20%
+	}
+
+	#weddingringSplash .sdTitleBtn {
+		font-size: 12px;
+		width: 180px
+	}
+
+}
+
+/*!! ver.1.1 EngagementSplash.css */
+.WideBanner {
+	background-image: url("https://ion.r2net.com/images/Splashes/ENGAGEMENT_RINGS/DESKTOP/top-banner-new.jpg");
+	background-position: center center;
+	clear: both;
+	height: 574px;
+	position: relative;
+	background-repeat: no-repeat
+}
+
+.WideBanner .BannerTitle {
+	font-size: 29px;
+	position: absolute;
+	top: 10%;
+	right: 15%
+}
+
+.WideBanner .middel-line {
+	background-color: #67615c;
+	height: 1px;
+	width: 80px;
+	display: inline-block;
+	margin-bottom: 14px;
+	margin-left: 15px;
+	margin-right: 15px
+}
+
+.cross-line::after,
+.cross-line::before {
+	background-color: #67615c;
+	height: 1px;
+	width: 80px;
+	display: inline-block;
+	margin-bottom: 14px;
+	margin-left: 15px;
+	margin-right: 15px;
+	content: ""
+}
+
+.WideBanner .TitleSPL {
+	text-align: center;
+	width: 314px
+}
+
+.WideBanner .TitleSPLCenter {
+	text-align: center
+}
+
+.TitleIconsSPL {
+	color: #ff8080;
+	font-family: JamesallenFonts;
+	font-size: 44px;
+	letter-spacing: -9px;
+	margin-top: 25px;
+	-moz-user-select: none;
+	-webkit-user-select: none
+}
+
+.video-cover {
+	background-image: url(https://ion.r2net.com/images/splash/video-cover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative
+}
+
+.super-zoom-links {
+	position: absolute;
+	bottom: 40px;
+	transform: translate(-50%, -50%);
+	width: 87%;
+	left: 50% !important
+}
+
+.WideBanner .TitleBtn {
+	background-color: #ff8080;
+	color: #fff;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	margin: 28px 5px 0;
+	text-transform: uppercase;
+	width: 176px;
+	display: inline-block
+}
+
+.WideBanner .Title01 {
+	font-size: 33px;
+	line-height: 36px;
+	text-transform: uppercase
+}
+
+.WideBanner .TitleSmall {
+	font-size: 26px;
+	line-height: 28px;
+	text-transform: uppercase
+}
+
+.WideBanner .Title02 {
+	font-size: 40px;
+	line-height: 45px;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 35px
+}
+
+.ToolTipJA {
+	background-color: #fff;
+	border: 1px solid #c1c1c1;
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .27)
+}
+
+.TestimonialsToolTip {
+	display: none;
+	height: 202px;
+	position: absolute;
+	right: -220px;
+	top: -220px;
+	width: 796px
+}
+
+.TestimonialsToolTip:after {
+	background-image: url("https://ion.r2net.com/images/splash/triangle.png");
+	content: "";
+	height: 22px;
+	position: absolute;
+	right: 250px;
+	top: 202px;
+	width: 31px
+}
+
+.engagement-moments-sec {
+	width: 100%;
+	height: 465px;
+	text-align: center;
+	background-color: #f4f2ed
+}
+
+.engagement-moments-sec .engagement-moments-sec-right {
+	background: url(https://ion.r2net.com/images/splash/engagemnt-moments.png) no-repeat center left
+}
+
+.engagement-moments-sec .engagement-moments-sec-content {
+	width: 60%;
+	padding: 50px
+}
+
+.MaxWidthSPL {
+	margin: 0 auto;
+	max-width: 1200px
+}
+
+.InspirationTextSPL {
+	display: table-cell;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+	background-color: #fff
+}
+
+.InspirationTitleSPL {
+	text-transform: uppercase
+}
+
+.NewOurCommTitleSPL {
+	text-transform: uppercase;
+	font-size: 14px !important;
+	width: 100%;
+	text-align: center;
+	margin-top: 0 !important
+}
+
+.NewOurCommTitleSPL:not(:last-child)::after {
+	background-color: #1b1b1b;
+	height: 1px;
+	width: 80px;
+	display: block;
+	content: "";
+	margin: 20px auto
+}
+
+.DesignersSPLcontainer {
+	width: 100%;
+	position: relative
+}
+
+.des-splash {
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-size: 11px
+}
+
+.DesignersSPLBG {
+	position: absolute;
+	left: 0;
+	top: 20px
+}
+
+.DesignersSPL {
+	height: 288px;
+	background-color: #f9eddc;
+	width: 100%;
+	text-align: center
+}
+
+.designers-content {
+	width: 55%;
+	margin: 0 auto
+}
+
+.DesignersSPL2 {
+	height: 197px;
+	background-color: #fdf8f2;
+	width: 100%
+}
+
+.DesignersSPL h2,
+.InspirationTextSPL h2 {
+	font-size: 34px
+}
+
+.engagement-moments-sec p {
+	line-height: 2em;
+	padding: 30px 0 40px 0
+}
+
+.designer-container {
+	width: 20%;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0 1%
+}
+
+.designer-container a {
+	display: table-cell;
+	vertical-align: middle
+}
+
+.designer-title::after {
+	background-color: #d0b3b2;
+	height: 1px;
+	width: 170px;
+	display: block;
+	content: "";
+	margin: 20px auto
+}
+
+.designer-logo,
+.designer-text,
+.designer-splash-link {
+	display: table-row;
+	vertical-align: middle
+}
+
+.designer-logo {
+	height: 60px
+}
+
+.designer-text {
+	height: 60px
+}
+
+.designer-splash-link {
+	height: 50px;
+	vertical-align: bottom
+}
+
+.engagement-moments-sec .designer-title::after {
+	display: none
+}
+
+.ContentBannerSPL .InspirationContentSPL {
+	font-size: 15px
+}
+
+.InspirationContentSPL {
+	font-size: 14px;
+	margin-top: 7px;
+	line-height: 24px
+}
+
+.InspirationLinkSPL {
+	font-size: 14px;
+	margin-top: 41px;
+	text-transform: uppercase
+}
+
+.InspirationImgSPL {
+	margin-top: 20px;
+	margin-bottom: 10px
+}
+
+.InspirationImageSPL {
+	vertical-align: bottom;
+	width: 337px
+}
+
+.InspirationRoundPlusWrapperSPL {
+	position: relative
+}
+
+.RotateRoundPlusImgSPL {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2)
+}
+
+.OurCommLinkSPL {
+	margin-top: 45px;
+	display: inline-block;
+	color: #85817d
+}
+
+.WrapperSplash {
+	margin: 0;
+	padding: 0;
+	max-width: inherit !important
+}
+
+.PresetHeaderSPL {
+	font-size: 26px;
+	text-transform: uppercase;
+	margin-top: 120px
+}
+
+.PresetCellSPL {
+	padding-left: 12%;
+	text-align: center;
+	vertical-align: top;
+	width: 51%
+}
+
+.PresetImgCellSPL {
+	vertical-align: bottom
+}
+
+.PresetLinkSPL {
+	font-size: 14px;
+	margin-top: 28px;
+	display: inline-block
+}
+
+.PhotographyHeaderSPL {
+	font-size: 26px;
+	text-transform: uppercase;
+	margin-top: 55px
+}
+
+.PhotographyContentSPL {
+	line-height: 18px;
+	font-size: 12px;
+	margin-top: 13px
+}
+
+.PhotographyLinkSPL {
+	margin-top: 20px;
+	display: inline-block
+}
+
+.PhotographyTitleSPL {
+	line-height: 18px;
+	font-size: 18px
+}
+
+.SocialImageSPL {
+	background-image: url('https://ion.r2net.com/Images/Splash/Social.jpg');
+	background-repeat: no-repeat;
+	width: 740px;
+	height: 178px
+}
+
+.SocialImgCellSPL {
+	width: 60%
+}
+
+.BoxTitleSPL {
+	line-height: 20px;
+	font-size: 18px;
+	margin-top: 24px
+}
+
+.BoxContentSPL {
+	line-height: 18px;
+	margin-top: 4px
+}
+
+.BoxLinkSPL {
+	margin-top: 4px;
+	display: inline-block
+}
+
+.RingSettingSPL {
+	float: left;
+	width: 90%;
+	position: relative
+}
+
+.RingSettingHeaderSPL {
+	font-size: 30px;
+	margin-top: 46px;
+	text-align: center;
+	text-transform: uppercase
+}
+
+.Explore {
+	height: 315px;
+	overflow: hidden;
+	width: 100%;
+	margin-top: 58px;
+	position: absolute
+}
+
+.Explore ul {
+	height: 100%;
+	list-style: outside none none;
+	margin: 0;
+	padding: 0
+}
+
+.Explore ul li {
+	float: left;
+	height: 100%;
+	width: 272px;
+	text-align: -webkit-center;
+}
+
+.RingSettingImage {
+	width: 195px
+}
+
+.ArrowLeftLPT {
+	float: left;
+	font-family: JamesallenFonts;
+	font-size: 19px;
+	line-height: 390px;
+	text-align: center;
+	vertical-align: middle;
+	width: 5%;
+	-moz-user-select: none;
+	-webkit-user-select: none
+}
+
+.ArrowColorLPT {
+	color: #242021;
+	cursor: pointer
+}
+
+.ArrowColorGrayLPT {
+	color: #d3d2d2
+}
+
+.ArrowRightLPT {
+	float: right;
+	font-family: JamesallenFonts;
+	font-size: 19px;
+	line-height: 390px;
+	text-align: center;
+	vertical-align: middle;
+	width: 5%;
+	-moz-user-select: none;
+	-webkit-user-select: none
+}
+
+.RingSettingContentSPL {
+	margin: 16px auto 0;
+	width: 180px
+}
+
+.RingSettingTitleSPL {
+	font-size: 14px;
+	margin: 11px auto 0;
+	width: 220px
+}
+
+.RingSettingTitleSPLWedding {
+	font-size: 16px;
+	margin: 11px auto 0;
+	width: 220px
+}
+
+.ReviewQuotesSPL {
+	color: #cecece;
+	display: inline-block;
+	font-family: JamesallenFonts;
+	font-size: 38px;
+	position: relative
+}
+
+.ReviewQuotesLeftSPL {
+	top: -56px
+}
+
+.ReviewQuotesRightSPL {
+	top: -10px
+}
+
+.ReviewCloseSPL {
+	float: right;
+	font-family: JamesallenFonts;
+	padding: 11px;
+	cursor: pointer
+}
+
+.ReviewContentSPL {
+	display: inline-block;
+	font-size: 22px;
+	margin: 0 10px;
+	width: 80%;
+	font-style: italic
+}
+
+.ReviewContentSPL:after {
+	content: "";
+	display: inline-block;
+	font-size: 6px;
+	height: 0;
+	line-height: 1px;
+	width: 100%
+}
+
+.ReviewNameSPL {
+	clear: both;
+	font-size: 16px;
+	margin: 11px 0 0 88px;
+	text-align: left
+}
+
+.ReviewLinkSPL {
+	float: right;
+	font-size: 14px;
+	position: relative;
+	right: 30px;
+	display: inline-block
+}
+
+.ReviewRateSPL {
+	color: #ff8080;
+	font-family: JamesallenFonts;
+	font-size: 12px;
+	letter-spacing: 2px;
+	margin-left: 10px;
+	margin-right: 8px
+}
+
+.JAlogoSPL {
+	color: #ff8080;
+	font-family: JamesallenFonts;
+	font-size: 24px;
+	margin: 0 auto;
+	width: 25px
+}
+
+.BannerSign {
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 5px;
+	position: relative;
+	top: -11px
+}
+
+.BreadCrumbsDivSPL {
+	z-index: 1;
+	position: relative
+}
+
+.WrapperSplash .BreadCrumbsSPL {
+	position: absolute;
+	top: 6px
+}
+
+.video-cover {
+	color: #fff;
+	padding-left: 50px;
+	padding-top: 50px
+}
+
+.superzoom-content {
+	width: 80%
+}
+
+.superzoom-content p {
+	color: #fff
+}
+
+.big-font {
+	font-size: 40px
+}
+
+@media only screen and (max-width:1400px) and (min-width:0) {
+	.WideBanner .BannerTitle {
+		right: 4%
+	}
+
+	.ContentBannerSPL .InspirationContentSPL {
+		font-size: 10px
+	}
+
+	.WideBanner .Title02 {
+		font-size: 16px;
+		line-height: 30px;
+		margin-bottom: 10px
+	}
+
+	.WideBanner .middel-line {
+		width: 34px
+	}
+
+	.big-font {
+		font-size: 26px
+	}
+
+	.InspirationContentSPL {
+		line-height: 18px
+	}
+
+	.TitleIconsSPL {
+		margin-top: 20px
+	}
+
+	.WideBanner .TitleBtn {
+		margin-top: 12px
+	}
+
+	.WideBanner .TitleBtn {
+		width: 50%
+	}
+
+	.designer-container {
+		width: 14%
+	}
+
+	.engagement-moments-sec .engagement-moments-sec-content {
+		padding: 80px 0;
+		width: 60%
+	}
+
+	.superzoom-title h3 {
+		font-size: 20px
+	}
+
+	.superzoom-title h2 {
+		font-size: 24px
+	}
+
+	.designers-content {
+		width: 70%
+	}
+
+	.super-zoom-links {
+		width: 85%
+	}
+}
+
+@media screen and (max-width:1270px) {
+	.WideBanner {
+		background-position: -335px
+	}
+}
+
+@media screen and (max-width:1170px) {
+	.WideBanner .TitleSPLCenter .general-paragraph {
+		font-size: 1.2vw
+	}
+}
+
+@media screen and (max-width:1080px) {
+	.WideBanner .BannerTitle {
+		right: 1%
+	}
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) {
+	.WideBanner {
+		background-position: -397px
+	}
+}
+
+@media only screen and (min-device-width:1024px) and (max-device-width:1366px) and (orientation:landscape) {
+	.WideBanner {
+		background-position: -213px
+	}
+
+	.WideBanner .BannerTitle {
+		right: 15%
+	}
+}
+
+.BrowseMetalTypes {
+	margin-bottom: 50px
+}
+
+.BrowseMetalTypes>.es-title {
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 35px
+}
+
+.BrowseMetalTypes>ul.es-metals {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 88%;
+	display: table;
+	margin: 0 auto
+}
+
+.BrowseMetalTypes>ul.es-metals li {
+	display: inline-block;
+	width: 145px;
+	text-align: center;
+	text-transform: uppercase;
+	display: table-cell
+}
+
+.BrowseMetalTypes>ul.es-metals li:hover {
+	opacity: .8
+}
+
+.BrowseMetalTypes>ul.es-metals li div.metal-image {
+	display: block;
+	width: 55px;
+	height: 55px;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	background-image: url(https://ion.r2net.com/Images/Splash/jamesallen-gallery-metals.svg?v=2)
+}
+
+.BrowseMetalTypes>ul.es-metals li span {
+	width: 154px;
+	display: block;
+	margin: 0 auto
+}
+
+.BrowseMetalTypes>ul.es-metals li div.metal-image.wg14 {
+	background-position: -578px -138px
+}
+
+.BrowseMetalTypes>ul.es-metals li div.metal-image.wg {
+	background-position: -723px -138px
+}
+
+.BrowseMetalTypes>ul.es-metals li div.metal-image.yg14 {
+	background-position: -368px -138px
+}
+
+.BrowseMetalTypes>ul.es-metals li div.metal-image.yg {
+	background-position: -577px -284px
+}
+
+.BrowseMetalTypes>ul.es-metals li div.metal-image.rg {
+	background-position: -368px -284px
+}
+
+.BrowseMetalTypes>ul.es-metals li div.metal-image.pl {
+	background-position: -724px -284px
+}
+
+/*!! ver.1.1 SplashPages.css */
+.DAR-TextMargin {
+	margin-top: 55px
+}
+
+.SYD-TextPosition {
+	position: relative;
+	top: 71px;
+	left: 7px
+}
+
+.DAR-RingStyleSprite {
+	background: url("https://ion.r2net.com/Images/DAR/RingsSprite.png");
+	border: 1px solid transparent;
+	display: inline-block;
+	height: 76px;
+	width: 87px;
+	margin-left: 5px;
+	text-align: center
+}
+
+.DAR-RingStyleSprite:hover {
+	border: 1px solid #ffc0c0;
+	cursor: pointer
+}
+
+.DAR-SelectedRingStyle {
+	border: 1px solid #ffc0c0 !important
+}
+
+.SYD-RecentlySoldDiamondRings {
+	background: url("https://ion.r2net.com/Images/SelectYourDiamond/RecentlySoldDiamondRings.png");
+	width: 899px;
+	height: 154px;
+	float: left
+}
+
+.SYD-TrueHearts {
+	background: url("https://ion.r2net.com/Images/SelectYourDiamond/TrueHearts.png");
+	width: 355px;
+	height: 115px;
+	float: left
+}
+
+.SYD-TrueHeartsLogo {
+	background: url("https://ion.r2net.com/Images/SelectYourDiamond/TrueHeartsLogo.png");
+	width: 137px;
+	height: 25px;
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	margin-right: 4px;
+	margin-left: 3px
+}
+
+.DiamondsGallery {
+	background: url("https://ion.r2net.com/Images/SelectYourDiamond/DiamondsGallery.png");
+	width: 900px;
+	height: 152px
+}
+
+.DAR-CompleteRing {
+	background: url("https://ion.r2net.com/Images/SelectYourDiamond/DAR-CompleteRing.png");
+	width: 224px;
+	height: 115px;
+	display: inline-block;
+	margin-top: 8px;
+	margin-left: -62px
+}
+
+.DAR-Diamond {
+	background: url("https://ion.r2net.com/Images/SelectYourDiamond/DAR-Diamond.png");
+	height: 112px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	margin-right: 70px;
+	margin-left: 106px;
+	width: 116px;
+	float: left;
+	cursor: pointer
+}
+
+.DAR-Equal {
+	background: url("https://ion.r2net.com/Images/SelectYourDiamond/DAR-Equal.png");
+	width: 27px;
+	height: 14px;
+	display: inline-block;
+	float: left;
+	margin-top: 48px;
+	margin-left: 65px
+}
+
+.DAR-Plus {
+	background: url("https://ion.r2net.com/Images/SelectYourDiamond/DAR-Plus.png");
+	height: 28px;
+	display: inline-block;
+	margin-top: 41px;
+	float: left;
+	background-repeat: no-repeat;
+	width: 103px
+}
+
+.DAR-Setting {
+	background: url("https://ion.r2net.com/Images/SelectYourDiamond/DAR-Setting.png");
+	width: 99px;
+	height: 115px;
+	display: inline-block;
+	float: left;
+	cursor: pointer
+}
+
+.SYD-Setting {
+	background: url("https://ion.r2net.com/Images/SelectYourDiamond/SYD-Setting.png");
+	width: 747px;
+	height: 120px;
+	float: left
+}
+
+.SYD-DiamondShapes {
+	background: url("https://ion.r2net.com/Images/SelectYourDiamond/SYD-DiamondShapes.png");
+	display: inline-block;
+	border: 1px solid #fff;
+	width: 80px;
+	height: 64px;
+	margin-left: 13px
+}
+
+.SYD-DiamondShapes:hover {
+	border: 1px solid #ffc0c0;
+	cursor: pointer
+}
+
+.SYD-UpperBanner {
+	background: url("https://ion.r2net.com/Images/SelectYourDiamond/SYD-UpperBanner.png");
+	width: 960px;
+	height: 370px
+}
+
+.DAR-BrandMilleCoeurs {
+	background: url("https://ion.r2net.com/Images/DAR/BrandMilleCoeurs.png");
+	width: 315px;
+	height: 251px;
+	display: inline-block
+}
+
+.DAR-BrandRoyalHalo {
+	background: url("https://ion.r2net.com/Images/DAR/BrandRoyalHalo.png");
+	width: 314px;
+	height: 251px;
+	display: inline-block;
+	margin-right: 4px
+}
+
+.DAR-BrandTuscan {
+	background: url("https://ion.r2net.com/Images/DAR/BrandTuscan.png");
+	width: 315px;
+	height: 251px;
+	display: inline-block;
+	margin-right: 4px
+}
+
+.DAR-ArrowMoveRight {
+	background: url("https://ion.r2net.com/Images/DAR/ArrowMoveRight.png");
+	width: 17px;
+	height: 26px;
+	display: inline-block
+}
+
+.DAR-ArrowMoveRightPosition {
+	margin-top: -92px;
+	margin-left: 9px
+}
+
+.DAR-ArrowMoveLeft {
+	background: url("https://ion.r2net.com/Images/DAR/ArrowMoveLeft.png");
+	width: 17px;
+	height: 26px;
+	display: inline-block
+}
+
+.DAR-ArrowMoveLeftPosition {
+	margin-top: -92px;
+	margin-right: 9px
+}
+
+.SYD-ArrowMoveLeftPosition {
+	float: left;
+	margin-top: 63px;
+	margin-left: 10px
+}
+
+.SYD-ArrowMoveRightPosition {
+	float: right;
+	margin-top: -89px;
+	margin-right: 10px
+}
+
+.DAR-RingsSlider {
+	background: url("https://ion.r2net.com/Images/DAR/DAR-RingsSlider.png");
+	width: 899px;
+	height: 154px;
+	display: inline-block
+}
+
+.DAR-TextHeader {
+	text-align: center;
+	font-size: 34px
+}
+
+.DAR-RingsCollection {
+	background: url("https://ion.r2net.com/Images/DAR/DAR-RingsCollection.png");
+	width: 1020px;
+	height: 213px
+}
+
+.DAR-Font {
+	font-family: Nunito Sans;
+	color: #656565
+}
+
+.DAR-FontSize {
+	font-size: 23px
+}
+
+.DAR-SpanStyle {
+	text-align: center;
+	width: 100%
+}
+
+.DAR-CreateYourSetting {
+	background: url("https://ion.r2net.com/Images/DAR/DAR-CreateYourSetting.png");
+	width: 958px;
+	height: 371px
+}
+
+.DAR-Btn {
+	width: 210px;
+	height: 48px;
+	line-height: 48px;
+	text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center
+}
+
+.DAR-Btn:hover {
+	text-decoration: none;
+	cursor: pointer
+}
+
+.Font-Nunito Sans-1 {
+	color: #656565;
+	font-family: Nunito Sans;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none !important
+}
+
+.DAR-Btn-color {
+	background-color: #faa
+}
+
+.DAR-Btn-color:hover {
+	background-color: #ffd7d7
+}
+
+.browselink {
+	text-decoration: underline
+}
+
+.ER-main-div {
+	width: 961px;
+	padding: 20px 0 150px 0 !important
+}
+
+.ER-main-div span {
+	display: inline-block;
+	vertical-align: top
+}
+
+.ER-main-div h1 {
+	font: normal 34px Nunito Sans;
+	color: #656565;
+	margin: 0 !important;
+	padding: 0 !important
+}
+
+h3.title {
+	font-size: 14px
+}
+
+h2.toptitle {
+	font-size: 34px
+}
+
+.ER-main-div p {
+	margin: 0;
+	padding: 0;
+	font: normal 14px Nunito Sans
+}
+
+.ER_cat_name span {
+	margin: 0;
+	padding: 0;
+	font: normal 13px Nunito Sans;
+	color: #5d5d5d !important;
+	clear: both
+}
+
+.ER_horiz_line {
+	width: 960px;
+	height: 1px;
+	background-color: #ececec;
+	margin-top: 20px;
+	float: left;
+	margin-bottom: 15px
+}
+
+.ER_design {
+	color: #575757;
+	font: normal 17px Nunito Sans
+}
+
+.ER_find {
+	color: #575757;
+	font: normal 14px Nunito Sans
+}
+
+.Rings,
+.Rings2 {
+	float: left;
+	width: 970px
+}
+
+.Rings span {
+	float: left;
+	text-align: center
+}
+
+.Rings h2 {
+	font-size: 28px
+}
+
+.Rings p,
+.Rings2 p {
+	font-size: 20px !important
+}
+
+.Rings2 span {
+	padding: 0 20px;
+	float: left;
+	text-align: center
+}
+
+.Rings2 div {
+	margin: 0 auto;
+	width: 806px
+}
+
+.Rings a:hover {
+	color: #000;
+	text-decoration: underline
+}
+
+.j_shapes a:hover p {
+	color: #000;
+	text-decoration: underline
+}
+
+.Rings a:hover span {
+	color: #000;
+	text-decoration: underline
+}
+
+.complete div {
+	float: left
+}
+
+.complete a:hover p {
+	color: #000;
+	text-decoration: underline
+}
+
+.complete a:hover {
+	color: #00f;
+	text-decoration: underline
+}
+
+.complete {
+	color: #575757
+}
+
+.complete p {
+	clear: both;
+	float: right !important;
+	margin-right: 17px;
+	vertical-align: top;
+	line-height: 0;
+	padding-top: 45px !important
+}
+
+#browseDiamondsLink {
+	width: 205px;
+	height: 40px;
+	display: inline-block;
+	font-size: 13px !important;
+	line-height: 40px;
+	margin: 37px 389px 28px
+}
+
+#browseEngagementLink,
+#browseLooseDiamonds,
+#browseGemstones,
+#browseWeddingRings,
+#browseJewelry {
+	width: 275px;
+	height: 40px;
+	display: inline-block;
+	font-size: 13px !important;
+	line-height: 40px
+}
+
+#browseGemstones {
+	width: 200px
+}
+
+#browsefancy {
+	width: 275px;
+	height: 40px;
+	display: inline-block;
+	font-size: 13px !important;
+	line-height: 40px
+}
+
+.GemstoneTypes {
+	float: left;
+	width: 970px
+}
+
+.GemstoneTypes span {
+	float: left;
+	text-align: left
+}
+
+.ER_cat_name span {
+	margin: 0;
+	padding: 0;
+	font: normal 13px Nunito Sans;
+	color: #5d5d5d !important;
+	clear: both
+}
+
+.j_shapes span {
+	float: left;
+	padding: 0
+}
+
+.j_shapes p {
+	text-align: center
+}
+
+.preset-pendants {
+	font-size: 16px !important;
+	color: #656565;
+	padding-bottom: 5px
+}
+
+.ER-main-div-collection {
+	width: 961px;
+	padding: 20px 0 150px 0 !important;
+	margin-top: 10px
+}
+
+.JC_Header {
+	font-size: 50px;
+	font-family: Nunito Sans;
+	float: left;
+	width: 480px;
+	line-height: 48px
+}
+
+.JC_Header_Design {
+	font-size: 50px;
+	font-family: Nunito Sans;
+	float: left;
+	width: 510px;
+	line-height: 48px
+}
+
+.JC_Header_Padding {
+	padding-left: 155px
+}
+
+.JC_Header_Context {
+	font-size: 13px;
+	font-family: Nunito Sans;
+	color: #656565;
+	padding-left: 15px;
+	background-color: #fff;
+	width: 430px;
+	float: left
+}
+
+.JC_Header_Context_Padding {
+	font-size: 13px;
+	font-family: Nunito Sans;
+	color: #656565;
+	padding-left: 15px;
+	background-color: #fff;
+	width: 430px;
+	float: left;
+	padding-top: 3px;
+	line-height: 150%
+}
+
+.JC_Header_Context_Padding_Design {
+	font-size: 13px;
+	font-family: Nunito Sans;
+	color: #656565;
+	padding-left: 15px;
+	padding-right: 0;
+	background-color: #fff;
+	width: 448px;
+	float: left;
+	padding-top: 5px;
+	padding-left: 0
+}
+
+.JC_ClearDiv {
+	height: 20px;
+	width: 940px;
+	clear: both
+}
+
+.JC_Data_Img {
+	width: 961px;
+	clear: both;
+	background-color: #f8f8f8;
+	margin-top: 20px;
+	float: left
+}
+
+.JC_Data_Img_Design {
+	width: 961px;
+	clear: both;
+	background-color: #f8f8f8;
+	margin-top: 27px;
+	float: left
+}
+
+.JC_Data_Img_Design_Sec {
+	width: 961px;
+	clear: both;
+	background-color: #f8f8f8;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	float: left
+}
+
+.JC_Data_Img_Sec {
+	width: 960px;
+	clear: both;
+	background-color: #f8f8f8;
+	margin-top: 20px;
+	float: right
+}
+
+.JC_Data_Header {
+	font-size: 18px;
+	font-family: Nunito Sans;
+	color: #656565;
+	padding-left: 504px;
+	padding-top: 27px
+}
+
+.JC_Data_Header_Design {
+	font-size: 18px;
+	font-family: Nunito Sans;
+	color: #656565;
+	padding-left: 504px;
+	padding-top: 26px
+}
+
+.JC_Data_Header_Sec {
+	font-size: 18px;
+	font-family: Nunito Sans;
+	color: #656565;
+	padding-left: 20px;
+	padding-top: 22px
+}
+
+.JC_Data_Header_Sec_Design {
+	font-size: 18px;
+	font-family: Nunito Sans;
+	color: #656565;
+	padding-left: 20px;
+	padding-top: 22px
+}
+
+.JC_Data_Context {
+	font-size: 13px;
+	font-family: Nunito Sans;
+	color: #656565;
+	padding-left: 504px;
+	padding-right: 57px;
+	padding-top: 10px;
+	line-height: 150%
+}
+
+.JC_Data_Context_Design {
+	font-size: 13px;
+	font-family: Nunito Sans;
+	color: #656565;
+	padding-left: 504px;
+	padding-right: 57px;
+	padding-top: 8px;
+	line-height: 135%
+}
+
+.JC_Data_Context_Sec {
+	font-size: 13px;
+	font-family: Nunito Sans;
+	color: #656565;
+	padding-left: 20px;
+	padding-top: 10px;
+	width: 450px;
+	line-height: 150%
+}
+
+.JC_Data_Context_Sec_Design {
+	font-size: 13px;
+	font-family: Nunito Sans;
+	color: #656565;
+	padding-left: 20px;
+	padding-top: 10px;
+	width: 450px;
+	line-height: 135%
+}
+
+.JC_Data_Footer {
+	font-size: 14px;
+	font-family: Nunito Sans;
+	color: #656565;
+	padding-left: 504px;
+	padding-top: 27px
+}
+
+.JC_Data_Footer_Design {
+	font-size: 14px;
+	font-family: Nunito Sans;
+	color: #656565;
+	padding-left: 504px;
+	padding-top: 48px
+}
+
+.JC_Data_Footer_Sec {
+	font-size: 14px;
+	font-family: Nunito Sans;
+	color: #656565;
+	padding-left: 20px;
+	padding-top: 19px
+}
+
+.JC_Data_Footer_Sec_Design {
+	font-size: 14px;
+	font-family: Nunito Sans;
+	color: #656565;
+	padding-left: 20px;
+	padding-top: 120px
+}
+
+.JC_Data_Context_Min_Padding {
+	font-size: 13px;
+	font-family: Nunito Sans;
+	color: #656565;
+	padding-left: 504px;
+	padding-right: 26px;
+	padding-top: 10px;
+	line-height: 150%
+}
+
+.sdDesignYourOwnTitle,
+.trueHeartsTitle {
+	font-size: 22px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	font-family: 'PlayfairDisplay'
+}
+
+.sdDesignYourOwnTitle2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	font-family: 'PlayfairDisplay'
+}
+
+.sdDesignYourOwnTitle2::after {
+	background-color: #67615c;
+	height: 1px;
+	width: 130px;
+	display: block;
+	content: "";
+	margin: 20px auto
+}
+
+.sdDesignYourOwnTitleLarge {
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	font-family: 'PlayfairDisplay'
+}
+
+.sdDesignYourOwnRight {
+	display: table-cell;
+	vertical-align: top;
+	text-align: center;
+	background: #f9f7f4;
+	width: 100%;
+	padding: 40px
+}
+
+.true-heart {
+	background: url('https://ion.r2net.com/images/splash/true-heart-bg.jpg') no-repeat center 165px
+}
+
+.sdOurCommunityConatiner {
+	display: table-cell;
+	width: 37%;
+	background: none repeat scroll 0 0 #ffd8d8;
+	display: table-cell;
+	max-width: 460px;
+	text-align: center;
+	vertical-align: top
+}
+
+.sdConflictfreeTitle2 {
+	margin: 10px auto;
+	width: 65%;
+	font-size: 15px
+}
+
+.sdConflictfreeContainer {
+	background-image: url("https://ion.r2net.com/images/splash/conflict-free-bg.jpg");
+	background-position: center center;
+	clear: both;
+	height: 439px;
+	position: relative
+}
+
+.sdConflictfreeContainerText {
+	text-align: center;
+	top: 65px;
+	width: 70%;
+	margin: 100px auto 0
+}
+
+.sdTrueheartContainer {
+	vertical-align: top;
+	text-align: center;
+	display: inline-block;
+	width: 100%
+}
+
+.sdfancycolorContainer {
+	background-image: url("https://ion.r2net.com/images/splash/dsfancybg.jpg");
+	background-position: center center;
+	clear: both;
+	height: 299px;
+	position: relative
+}
+
+.sdOurCommunityText1,
+.sdConflictfreeTitle-bridal {
+	font-size: 26px;
+	text-transform: uppercase;
+	font-family: 'PlayfairDisplay'
+}
+
+.sdConflictfreeTitle-bridal::after {
+	background-color: #aea9a6;
+	height: 1px;
+	width: 130px;
+	display: block;
+	content: "";
+	margin: 28px auto
+}
+
+.sdOurCommunityText2 {
+	font-size: 20px
+}
+
+.sdOurCommunityText2 {
+	font-size: 20px
+}
+
+.sdourcommsp {
+	border-top: 1px solid #cfbfa7;
+	display: inline-block;
+	height: 4px;
+	width: 70%;
+	margin-top: 40px
+}
+
+.sdTrueheartlogo {
+	color: #ff8080;
+	font-family: JamesallenFonts;
+	font-size: 53px
+}
+
+.sdTrueheartText1 {
+	text-transform: uppercase
+}
+
+.TableSPL {
+	display: table
+}
+
+.CellSPL {
+	display: table-cell
+}
+
+.OurCommitmentSPL {
+	height: 605px;
+	width: 100%
+}
+
+.OurCommitmentCellSPL {
+	text-align: center;
+	vertical-align: top;
+	width: 40%;
+	background-color: #ffd8d8;
+	padding-top: 40px
+}
+
+.OurCommLineSPL {
+	border-color: #1b1b1b;
+	border-style: solid none none;
+	border-width: thin;
+	margin: 45px auto;
+	width: 80%
+}
+
+.OurCommHeaderSPL {
+	font-size: 26px;
+	margin-top: 50px
+}
+
+.OurCommTitleSPL {
+	font-size: 20px;
+	margin-top: 45px;
+	display: inline-block;
+	color: #1b1b1b
+}
+
+.OurCommContentSPL {
+	font-size: 14px;
+	line-height: 18px;
+	margin-top: 20px
+}
+
+.LinkSPL {
+	text-transform: uppercase;
+	text-decoration: underline;
+	cursor: pointer
+}
+
+@media only screen and (max-width:1400px) and (min-width:0) {
+	.lab-diamond-container {
+		background-size: 300px
+	}
+
+	#diamondSplash .sdBannerTitlenum {
+		font-size: 60px
+	}
+
+	#diamondSplash .sdBannerTitle21PlayfairDisplay {
+		font-size: 16px;
+		line-height: 24px
+	}
+
+	#diamondSplash .dBannerTextPlayfairDisplay {
+		width: 50%;
+		font-size: 12px;
+		line-height: 20px
+	}
+
+	#diamondSplash .sdBannerTitleBig {
+		font-size: 30px
+	}
+
+	#diamondSplash .play-video {
+		right: 18%
+	}
+
+	#diamondSplash .sdBannerTitle1 {
+		font-size: 28px
+	}
+
+	.sdDesignYourOwnTitle,
+	.trueHeartsTitle,
+	.fancyColorTitle {
+		font-size: 20px
+	}
+
+	.sdDesignYourOwnTitleLarge {
+		font-size: 24px
+	}
+
+	.no-ipad {
+		display: none
+	}
+
+	.sdConflictfreeTitle2 {
+		width: 73%
+	}
+}
+
+@media only screen and (max-width:1150px) {
+	.diamond-engagement-ring-text {
+		font-size: 1.3vw
+	}
+}

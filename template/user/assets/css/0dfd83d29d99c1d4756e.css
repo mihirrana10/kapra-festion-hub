@@ -1,0 +1,1312 @@
+.end-of-results--LUXjE {
+	display: flex;
+	justify-content: center;
+	margin: 40px 0;
+	border-bottom: 1px solid #a7a7a7;
+	padding-bottom: 15px
+}
+
+.info-icon--DXD4x {
+	color: #a7a7a7;
+	margin-right: 10px;
+	margin-top: 1px
+}
+
+.reset-filters-no-results--cj3gk {
+	text-decoration: underline;
+	cursor: pointer
+}
+
+.loader--quG04 {
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	z-index: 999
+}
+
+.panel-container--fGBwj {
+	max-height: 600px;
+	-webkit-transition: all .8s;
+	-moz-transition: all .8s;
+	transition: all .8s
+}
+
+.change-view-text--Wy9vW {
+	font-size: 15px;
+	padding: 0;
+	margin-right: 8px;
+	font-family: "Nunito Sans"
+}
+
+.price-filter-container--ldz5U {
+	width: 350px;
+	display: flex;
+	align-items: center
+}
+
+.metal-filter-container--qPTAD {
+	display: flex;
+	justify-content: space-between
+}
+
+.dropdown-filters-container--SDsT7 {
+	display: flex;
+	margin-top: 20px;
+	padding: 0 10px
+}
+
+.clear-filters-container--KxRps {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10px
+}
+
+.results-title-height--n_dhi {
+	height: 117px
+}
+
+.view-filter-container--EhXcI {
+	display: flex;
+	align-items: center
+}
+
+.before-grid--z_ilp {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	padding: 0 0 0 10px
+}
+
+.reset-filters-no-results--G3kxT {
+	text-decoration: underline;
+	cursor: pointer
+}
+
+.info-icon--O_tvF {
+	color: #a7a7a7;
+	margin-right: 10px;
+	margin-top: 1px
+}
+
+.end-of-results--XTGaG {
+	display: flex;
+	justify-content: center;
+	margin: 40px 0;
+	border-bottom: 1px solid #a7a7a7;
+	padding-bottom: 15px
+}
+
+.leftSide--wxavv {
+	display: flex;
+	align-items: flex-end
+}
+
+.rightSide--SLw_W {
+	display: flex;
+	align-items: center;
+	width: 615px;
+	justify-content: flex-end
+}
+
+.dropDownItem--MnpBN {
+	margin-top: auto;
+	width: 100%;
+	max-width: 190px
+}
+
+.no-results-container--oq1m9 {
+	margin: 62px 0;
+	text-align: center;
+	font-size: 24px;
+	font-family: Nunito Sans;
+	white-space: pre-line
+}
+
+.reset-filters-text--BZ8QX {
+	text-decoration: underline;
+	cursor: pointer
+}
+
+.single-button-container--eUWxn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+	width: 100%;
+	position: relative;
+	margin-right: 3px
+}
+
+.single-image--BEOac {
+	font-family: JamesallenFonts;
+	font-size: 65px;
+	color: #444;
+	border: 1px solid rgba(0, 0, 0, 0);
+	position: relative;
+	transition: .08s ease-in;
+	-o-transition: .08s ease-in;
+	-ms-transition: .08s ease-in;
+	-moz-transition: .08s ease-in;
+	-webkit-transition: .08s ease-in;
+	margin-bottom: 5px;
+	display: flex;
+	width: 98%;
+	height: 82px;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.icon-designers--fFFnC {
+	color: rgba(0, 0, 0, 0);
+	background: url(https://ion.r2net.com/Images/JewelGallery/gallery_sprite.jpg?v=2) 308px -352px !important;
+	font-size: 65px;
+	height: 95px;
+	width: 98% !important;
+	padding: 0 !important
+}
+
+.background-css--SuZe7 {
+	width: 70px;
+	padding: 0 10px;
+	height: 82px !important;
+	text-decoration: none;
+	display: inline-block;
+	background: no-repeat center center;
+	border: 1px solid rgba(0, 0, 0, 0);
+	margin-bottom: 5px
+}
+
+.single-image--BEOac:hover,
+.selected--4S7HN,
+.background-css--SuZe7:hover {
+	border: 1px solid #1b1b1b
+}
+
+.const-border--vhbXO {
+	border: 1px solid #1b1b1b
+}
+
+.border-conceal--Poewk {
+	height: 4px;
+	width: calc(100% - 2px);
+	background-color: #fff;
+	position: absolute;
+	top: 65px;
+	left: 1px;
+	z-index: 100
+}
+
+.label--AT46l {
+	text-transform: capitalize;
+	font-family: Nunito Sans;
+	color: #1b1b1b;
+	font-size: 11px;
+	white-space: nowrap
+}
+
+.label--AT46l.firefox-style--WmTZT {
+	position: relative;
+	top: 13px
+}
+
+/*!*type filter*!*/
+.bg-metal-show-all--fIIyQ {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/ALL.svg")
+}
+
+.bg-metal-14k-white--S6Q9J {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/14S.svg")
+}
+
+.bg-metal-18k-white--TO28O {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/18S.svg")
+}
+
+.bg-metal-14k-yellow--C0rfp {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/14G.svg")
+}
+
+.bg-metal-18k-yellow--oSZmg {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/18G.svg")
+}
+
+.bg-metal-platinum--NGC8h {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/PT.svg")
+}
+
+.bg-metal-rose--pnkHC {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/RO.svg")
+}
+
+.bg-metal-tantalum--OXjWK {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/TL.svg")
+}
+
+.bg-metal-cobalt-chrome--OpjDm {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/CB.svg")
+}
+
+.bg-metal-titanium--BYz54 {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/TM.svg")
+}
+
+.bg-metal-black-titanium--ZOzez {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/BT.svg")
+}
+
+.bg-metal-ceramic--oK8Km {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/CM.svg")
+}
+
+.bg-verragio--rwZC8 {
+	background-image: url("https://ion.r2net.com/Images/svg/designers-logos/verragio-logo.svg")
+}
+
+.bg-danhov--bMPkd {
+	background-image: url("https://ion.r2net.com/Images/svg/designers-logos/danhov-logo.svg")
+}
+
+.bg-martin-flyer--Sf2Ar {
+	background-image: url("https://ion.r2net.com/Images/svg/designers-logos/mf-logo.svg")
+}
+
+.bg-jeff-cooper--eThcG {
+	background-image: url("https://ion.r2net.com/Images/svg/designers-logos/jeff-logo.svg")
+}
+
+.bg-unique--fUYdG {
+	background-image: url("https://ion.r2net.com/Images/svg/designers-logos/unique-logo.svg")
+}
+
+
+@media screen and (max-width: 1151px)and (min-width: 0) {
+	.single-image--BEOac {
+		font-size: 46px
+	}
+}
+
+.designers-wrapper--yzFXC {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+	width: 100%
+}
+
+.designers-container--D7Cq9 {
+	display: flex;
+	position: absolute;
+	width: 58%;
+	right: 2px;
+	top: 65px;
+	border: 1px solid #1b1b1b;
+	background-color: #fff;
+	height: 95px;
+	align-items: center;
+	z-index: 1
+}
+
+.single-button-container--XE2ye {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	width: 100%;
+	height: 95px;
+	position: relative
+}
+
+.single-image--KlHv9 {
+	font-family: JamesallenFonts;
+	font-size: 65px;
+	color: #8a8a8a;
+	border: 1px solid rgba(0, 0, 0, 0);
+	position: relative;
+	transition: .08s ease-in;
+	-o-transition: .08s ease-in;
+	-ms-transition: .08s ease-in;
+	-moz-transition: .08s ease-in;
+	-webkit-transition: .08s ease-in;
+	margin-bottom: 5px;
+	display: flex;
+	width: 98%;
+	justify-content: center
+}
+
+.icon-designers--W9IOT {
+	color: rgba(0, 0, 0, 0);
+	background: url(https://ion.r2net.com/Images/JewelGallery/gallery_sprite.jpg?v=2) 318px -356px !important;
+	font-size: 65px;
+	height: 95px;
+	width: 98% !important;
+	padding: 0 !important
+}
+
+.background-css--xSDXV {
+	width: 110px;
+	padding: 0 0;
+	height: 82px !important;
+	text-decoration: none;
+	display: inline-block;
+	background: no-repeat center center;
+	border: 1px solid rgba(0, 0, 0, 0);
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.selected--yVDr_ {
+	background-color: #f8f8f9
+}
+
+.label--iMMV4 {
+	text-transform: capitalize;
+	font-family: Nunito Sans;
+	color: #1b1b1b;
+	font-size: 11px;
+	white-space: nowrap
+}
+
+/*!*type filter*!*/
+.bg-metal-show-all--o9QS6 {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/ALL.svg")
+}
+
+.bg-metal-14k-white--JTa0k {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/14S.svg")
+}
+
+.bg-metal-18k-white--EA1FE {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/18S.svg")
+}
+
+.bg-metal-14k-yellow--V4MeZ {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/14G.svg")
+}
+
+.bg-metal-18k-yellow--oXD57 {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/18G.svg")
+}
+
+.bg-metal-yellow--ykQyZ {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/GOLD.svg")
+}
+
+.bg-metal-white--zk03D {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/SILVER.svg")
+}
+
+.bg-metal-platinum--s6Ymx {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/PT.svg")
+}
+
+.bg-metal-rose--m74nX {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/RO.svg")
+}
+
+.icon-designers--W9IOT:before {
+	content: "î˜–"
+}
+
+.bg-verragio--fpicd {
+	background-image: url("https://ion.r2net.com/Images/svg/designers-logos/verragio-logo.svg")
+}
+
+.bg-danhov--jKzvF {
+	background-image: url("https://ion.r2net.com/Images/svg/designers-logos/danhov-logo.svg")
+}
+
+.bg-martin-flyer--fPot1 {
+	background-image: url("https://ion.r2net.com/Images/svg/designers-logos/mf-logo.svg")
+}
+
+.bg-jeff-cooper--YHatJ {
+	background-image: url("https://ion.r2net.com/Images/svg/designers-logos/jeff-logo.svg")
+}
+
+.bg-unique--J0lHa {
+	background-image: url("https://ion.r2net.com/Images/svg/designers-logos/unique-logo.svg")
+}
+
+
+@media screen and (max-width: 1151px)and (min-width: 0) {
+	.icon-designers--W9IOT {
+		background: url(https://ion.r2net.com/Images/JewelGallery/gallery_sprite.jpg?v=2) 318px -368px !important
+	}
+}
+
+.gallery-grid-container--cEtWX {
+	max-width: 1400px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	display: flex
+}
+
+.gallery-grid--imCUW {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 12px
+}
+
+.item--WtFZn {
+	width: calc((100% - 36px)/4);
+	margin-right: 12px;
+	position: relative;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	z-index: 1
+}
+
+.item--WtFZn:hover {
+	z-index: 10
+}
+
+.item--WtFZn:nth-child(4n) {
+	margin-right: 0
+}
+
+.empty-item--_veX1 {
+	/*!*/
+}
+
+.item--WtFZn.wide-item--c1eCH {
+	width: calc(50% - 6px)
+}
+
+.rootRippleButton {
+	overflow: hidden;
+	position: relative;
+	z-index: 0;
+	outline: none;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: .02857em
+}
+
+.rootRippleButton:active,
+.rootRippleButton:focus {
+	outline: none;
+	border: none
+}
+
+.rootRippleButton .ripple {
+	z-index: 5;
+	border-radius: 50%;
+	position: absolute;
+	transform: scale(0);
+	animation: ripple .4s linear
+}
+
+@keyframes ripple {
+	to {
+		transform: scale(2.5);
+		opacity: 0
+	}
+}
+
+.contentChildRipple {
+	position: relative;
+	z-index: 10
+}
+
+@keyframes clickAnimation {
+	0% {
+		border-width: 0px
+	}
+
+	99% {
+		border-width: 3px
+	}
+
+	100% {
+		border-width: 3px
+	}
+}
+
+.HiddenCheckbox {
+	border: 0;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap;
+	z-index: 2;
+	opacity: 0;
+	box-sizing: content-box;
+	cursor: pointer
+}
+
+.HiddenCheckbox.disabled {
+	cursor: not-allowed
+}
+
+.Box {
+	cursor: pointer;
+	border-radius: 4px;
+	position: relative;
+	z-index: 3
+}
+
+.Box .check {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 15px;
+	height: 13px
+}
+
+.Box.disabled {
+	border: 1px solid rgba(197, 197, 197, .5) !important;
+	background-color: #f8f8f9 !important;
+	cursor: not-allowed !important
+}
+
+.BG {
+	box-sizing: border-box;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 50%;
+	border: solid 0px rgba(0, 0, 0, 0);
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.BG:not(.mobile).ripple {
+	animation-name: clickAnimation;
+	animation-duration: .3s
+}
+
+.BG.mobile:hover {
+	background-color: rgba(0, 0, 0, 0) !important;
+	animation-name: none !important;
+	animation-duration: 0 !important
+}
+
+.loader--Sg_I_ {
+	width: 100px;
+	height: 100px;
+	position: fixed !important;
+	z-index: 999
+}
+
+#BodyContainer#BodyContainer {
+	width: auto
+}
+
+.rootBottomItemPage--DZSkH.fineJewelry--OqnnO {
+	margin-top: 140px;
+	padding-left: 50px
+}
+
+.rootBottomItemPage--DZSkH.paddingLeft--Shr3w {
+	padding-left: 85px
+}
+
+.rootDesktopConsultationItemPage--JGcya {
+	width: 100%;
+	overflow: hidden;
+	max-height: 0;
+	box-sizing: border-box;
+	opacity: 0;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out
+}
+
+.rootDesktopConsultationItemPage--JGcya.activeConsultation--rV4bF {
+	box-shadow: 0 2px 5px rgba(27, 27, 27, .17);
+	max-height: 150px;
+	opacity: 1;
+	margin-bottom: 35px
+}
+
+.rootDesktopConsultationItemPage--JGcya .consultationContainer--w4rO6 {
+	height: 97px;
+	border: 1px solid #fff;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 65px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	border-radius: 4px
+}
+
+.rootDesktopConsultationItemPage--JGcya .consultationContainer--w4rO6 .consultationText--QlJQw {
+	font-weight: 400;
+	line-height: 1
+}
+
+.rootDesktopConsultationItemPage--JGcya .consultationContainer--w4rO6 .consultationText--QlJQw .title--L8hdi {
+	color: #385cab;
+	font-size: 21px;
+	margin: 0 0 8px
+}
+
+.rootDesktopConsultationItemPage--JGcya .consultationContainer--w4rO6 .consultationText--QlJQw .description--mzdGP {
+	color: #656565;
+	font-size: 16px;
+	margin: 0
+}
+
+body.orbitvu #WidePane .main-container {
+	max-width: initial;
+	margin-right: 0;
+	margin-left: 0;
+	padding-left: 30px !important;
+	padding-right: 30px !important
+}
+
+body.orbitvu #WidePane .main-container .BreadCrumbs-content {
+	padding-left: 0 !important;
+	margin-top: 32px !important
+}
+
+@media only screen and (max-width: 1210px) {
+	body.orbitvu #WidePane .main-container {
+		padding-left: 12px !important;
+		padding-right: 12px !important
+	}
+}
+
+body.orbitvu #WidePane [data-gallery=true],
+body.orbitvu #WidePane .wide-main-container {
+	max-width: initial;
+	margin-right: 0;
+	margin-left: 0;
+	padding-left: 0 !important;
+	padding-right: 0 !important
+}
+
+body.orbitvu #WidePane .BreadCrumbs-content {
+	padding-left: 32px !important
+}
+
+body.orbitvu #WidePane #JewelItemPage {
+	padding: 0 30px
+}
+
+@media only screen and (max-width: 1210px) {
+	body.orbitvu #WidePane #JewelItemPage {
+		padding-left: 12px;
+		padding-right: 12px
+	}
+}
+
+body.orbitvuBreadcrumbFix #WidePane .main-container {
+	max-width: initial;
+	margin-right: 0;
+	margin-left: 0;
+	padding-left: 20px !important;
+	padding-right: 30px !important
+}
+
+.rootDesktopItemPage--mulrK {
+	box-sizing: border-box;
+	max-width: 1400px;
+	width: auto;
+	margin: 7px auto 0
+}
+
+.rootDesktopItemPage--mulrK.fineJewelry--IAZ5j {
+	max-width: none;
+	padding: 0 70px 0 30px !important;
+	margin: 16px auto 0
+}
+
+.rootDesktopItemPage--mulrK.fineJewelry--IAZ5j .customPageContent--W8WfA.noSideLifeStyle--BcR9S {
+	max-width: none
+}
+
+.rootDesktopItemPage--mulrK button::-moz-focus-inner {
+	border: 0
+}
+
+.rootDesktopItemPage--mulrK .itemPageContent--Loz1F {
+	width: 95vw;
+	position: relative;
+	max-width: 1252px;
+	margin: 0 auto
+}
+
+@media screen and (max-width: 990px) {
+	.rootDesktopItemPage--mulrK .itemPageContent--Loz1F {
+		width: 97%
+	}
+}
+
+.rootDesktopItemPage--mulrK .customPageContent--W8WfA {
+	width: 100%;
+	max-width: 1252px;
+	margin: 0 auto
+}
+
+@media screen and (max-width: 990px) {
+	.rootDesktopItemPage--mulrK .customPageContent--W8WfA {
+		width: 97%
+	}
+}
+
+@media only screen and (max-width: 1210px) {
+	.rootDesktopItemPage--mulrK {
+		padding-left: 12px !important;
+		padding-right: 12px !important
+	}
+}
+
+.rootDesktopCustopPage--gaflG {
+	box-sizing: border-box;
+	max-width: 100vw;
+	width: auto;
+	padding: 0 10px;
+	margin: 7px auto 0;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	position: relative
+}
+
+.rootDesktopCustopPage--gaflG button::-moz-focus-inner {
+	border: 0
+}
+
+.rootDesktopCustopPage--gaflG .itemPageContent--Loz1F {
+	width: 100%
+}
+
+.rootDesktopItemPage--mulrK #itemReviews>h2 {
+	padding: 0;
+	font-size: 25px;
+	color: #1a1a1a
+}
+
+.grecaptcha-badge {
+	visibility: collapse !important
+}
+
+.inspirationTrafficPopup_class--_soXh {
+	/*!*/
+}
+
+.tag--TjXX2 {
+	font-family: Nunito Sans;
+	color: #656565;
+	font-size: 13px;
+	display: flex;
+	cursor: default;
+	align-items: center
+}
+
+.separator--WA66J {
+	background-color: #d1d1d1;
+	width: 1px;
+	height: 16px;
+	margin: 0 8px
+}
+
+.resetAll--cCsUZ {
+	font-family: Nunito Sans;
+	color: #a1a1a1;
+	font-size: 13px;
+	margin-left: 5px;
+	cursor: pointer;
+	display: flex;
+	align-items: center
+}
+
+.button-close--V5sr3 {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	padding: 6px;
+	cursor: pointer;
+	margin-left: 8px
+}
+
+.button-close--V5sr3:hover {
+	background-color: #f2f2f2
+}
+
+.wideJewelGridItemContainer--xmq89 {
+	width: 100%;
+	position: relative;
+	border: 1px solid rgba(0, 0, 0, 0)
+}
+
+.wideJewelGridItemContainer--xmq89.showPlayer--vQLaF .player--AR6WE {
+	visibility: visible
+}
+
+.wideJewelGridItemContainer--xmq89.showImage1--bHX3T .image1--CS1tq,
+.wideJewelGridItemContainer--xmq89.showImage2--JWToI .image2--S9Npc {
+	display: block
+}
+
+.wideJewelGridItemContainer--xmq89 .lifestyle-image--qX8oT {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	overflow: hidden;
+	z-index: 3;
+	display: none
+}
+
+.wideJewelGridItemContainer--xmq89 .lifestyle-image--qX8oT img {
+	max-width: 100%
+}
+
+.wideJewelGridItemContainer--xmq89:hover {
+	border: 1px solid #1b1b1b
+}
+
+.wideJewelGridItemContainer--xmq89:hover .itemData--G7Xeb .itemDataInner--pbdcf {
+	height: 197px;
+	border: 1px solid #1b1b1b;
+	border-top: 1px solid rgba(0, 0, 0, 0)
+}
+
+.wideJewelGridItemContainer--xmq89:hover .itemData--G7Xeb .itemDataInner--pbdcf.disable-hover--qO4x_ .lifeStyle-thumbs--WjSTw {
+	visibility: hidden
+}
+
+.wideJewelGridItemContainer--xmq89:hover .itemData--G7Xeb .itemDataInner--pbdcf .lifeStyle-thumbs--WjSTw {
+	visibility: visible
+}
+
+.wideJewelGridItemContainer--xmq89 .itemMediaWrapper--LFvbm {
+	height: 0;
+	padding-top: 79.2763%;
+	position: relative;
+	background-color: #fafafa
+}
+
+.wideJewelGridItemContainer--xmq89 .itemMediaWrapper--LFvbm .itemMedia--nM86U {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden
+}
+
+.wideJewelGridItemContainer--xmq89 .itemMediaWrapper--LFvbm .itemMedia--nM86U .player--AR6WE .orbitvueWrapper--eToXq {
+	position: relative;
+	padding-bottom: 79.2763%;
+	height: 0
+}
+
+.wideJewelGridItemContainer--xmq89 .itemMediaWrapper--LFvbm .itemMedia--nM86U .player--AR6WE .orbitvueWrapper--eToXq .orbitvueInner--hWUb9 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.wideJewelGridItemContainer--xmq89 .itemMediaWrapper--LFvbm .itemMedia--nM86U .player--AR6WE .orbitvueWrapper--eToXq .orbitvueInner--hWUb9 .orbitvueImage--SmJFD {
+	width: 130%
+}
+
+.wideJewelGridItemContainer--xmq89 .itemMediaWrapper--LFvbm .itemMedia--nM86U .sonarIcon--IvNkf {
+	width: 44px !important;
+	height: 44px !important;
+	position: absolute !important;
+	top: 9px !important;
+	right: 10px !important;
+	cursor: default !important
+}
+
+.wideJewelGridItemContainer--xmq89 .itemData--G7Xeb {
+	height: 125px;
+	position: relative
+}
+
+.wideJewelGridItemContainer--xmq89 .itemData--G7Xeb .itemDataInner--pbdcf {
+	height: 125px;
+	padding: 14px 12px 11px 11px;
+	box-sizing: border-box;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0);
+	width: calc(100% + 2px);
+	position: absolute;
+	left: -1px
+}
+
+.wideJewelGridItemContainer--xmq89 .itemData--G7Xeb .itemDataInner--pbdcf .titleAndWishlist--bxC3o {
+	position: relative;
+	padding-right: 35px
+}
+
+.wideJewelGridItemContainer--xmq89 .itemData--G7Xeb .itemDataInner--pbdcf .titleAndWishlist--bxC3o .wishlistWrapper--gOLji {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0;
+	border: 0;
+	width: 20px
+}
+
+.wideJewelGridItemContainer--xmq89 .itemData--G7Xeb .itemDataInner--pbdcf .titleAndWishlist--bxC3o .itemTitle--lwJfb {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #000
+}
+
+.wideJewelGridItemContainer--xmq89 .itemData--G7Xeb .itemDataInner--pbdcf .itemTags--kHc5q {
+	margin-bottom: 8px;
+	display: flex
+}
+
+.wideJewelGridItemContainer--xmq89 .itemData--G7Xeb .itemDataInner--pbdcf .itemTags--kHc5q .itemTag--cZSU0 {
+	font-weight: 600;
+	font-size: 10px;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: #818181;
+	height: 16px
+}
+
+.wideJewelGridItemContainer--xmq89 .itemData--G7Xeb .itemDataInner--pbdcf .itemTags--kHc5q .itemTag--cZSU0:not(:first-child):before {
+	content: "";
+	margin: 0 6px;
+	border-radius: 50%;
+	background-color: #a19fa0;
+	height: 4px;
+	width: 4px;
+	display: inline-flex;
+	position: relative;
+	bottom: 1px
+}
+
+.wideJewelGridItemContainer--xmq89 .itemData--G7Xeb .itemDataInner--pbdcf .lifeStyle-thumbs--WjSTw {
+	display: flex;
+	justify-content: flex-start;
+	align-self: flex-start;
+	visibility: hidden
+}
+
+.wideJewelGridItemContainer--xmq89 .itemData--G7Xeb .itemDataInner--pbdcf .lifeStyle-thumbs--WjSTw .lifeStyle-thumb--U_hOz {
+	height: 48px;
+	width: 48px;
+	display: inline-block;
+	margin-right: 8px;
+	overflow: hidden;
+	position: relative
+}
+
+.wideJewelGridItemContainer--xmq89 .itemData--G7Xeb .itemDataInner--pbdcf .lifeStyle-thumbs--WjSTw .lifeStyle-thumb--U_hOz.selected--pr72K::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background-color: #1b1b1b;
+	z-index: 2
+}
+
+.wideJewelGridItemContainer--xmq89 .itemData--G7Xeb .itemDataInner--pbdcf .lifeStyle-thumbs--WjSTw .lifeStyle-thumb--U_hOz:last-child {
+	margin-right: 0
+}
+
+.wideJewelGridItemContainer--xmq89 .itemData--G7Xeb .itemDataInner--pbdcf .lifeStyle-thumbs--WjSTw .lifeStyle-thumb--U_hOz.preload-thumb--pXA2l {
+	position: relative
+}
+
+.wideJewelGridItemContainer--xmq89 .itemData--G7Xeb .itemDataInner--pbdcf .lifeStyle-thumbs--WjSTw .lifeStyle-thumb--U_hOz.preload-thumb--pXA2l img {
+	max-width: initial;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%)
+}
+
+.wideJewelGridItemContainer--xmq89 .itemData--G7Xeb .itemDataInner--pbdcf .lifeStyle-thumbs--WjSTw .lifeStyle-thumb--U_hOz img {
+	max-width: 100%;
+	cursor: default
+}
+
+.wideGallery--zgxXM .icon--y4mAL {
+	height: 28px;
+	width: 28px;
+	right: 12px
+}
+
+.wideGallery--zgxXM .icon-garnet--xATjO {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Jan_Garnet.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-amethyst--X2hIk {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Feb_Amethyst.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-aquamarine--i7C7d {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Mar_Aquamarine.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-diamond--cI6tE {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Apr_Diamond.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-emerald--VkoUY {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/May_Emerald.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-whiteTopaz--B6VHf {
+	background: url("https://ion.r2net.com/Images/FineJewelry/White_Topaz.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-smokyQuartz--wb1Oq {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Smoky_Quartz.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-pearl--LIm9v {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Jun_Pearl.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-ruby--hI1nY {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Jul_Ruby.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-peridot--P5oqf {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Aug_Peridot.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-sapphire--TsmzZ {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Sept_Sapphire.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-opal--vmFAm {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Oct_Opal.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-cirtine--xEjsD {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Nov_Citrine.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-blueTopaz--rouaV {
+	background: url("https://ion.r2net.com/Images/FineJewelry/birthstones/Dec_Blue Topaz.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-Earth-Created_Diamond--jvbZl {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Earth-Created_Diamond.svg") no-repeat;
+	height: 19px;
+	background-position: 2px 0
+}
+
+.wideGallery--zgxXM .icon-Lab_Created_diamond--My3_I {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Lab_Created_diamond.svg") no-repeat;
+	height: 19px;
+	background-position: 2px 0
+}
+
+.wideGallery--zgxXM .icon-garnet-gemstone--NbZXt {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Garnet_2.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-amethyst-gemstone--J00ui {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Amethyst.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-aquamarine-gemstone--de_ZX {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Aquamarine.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-emerald-gemstone--jkwEX {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Emerald.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-ruby-gemstone--YrFxd {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Ruby.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-peridot-gemstone--rot_h {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Peridot.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-sapphire-gemstone--IGMgV {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Sapphire.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-opal-gemstone--spoSD {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Opal.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-citrine-gemstone--i20Dy {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Citrine.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-blueTopaz-gemstone--AfXXY {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Blue_Topaz.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-no-stone--IC1Dw {
+	background: url("https://ion.r2net.com/Images/FineJewelry/no-stone.jpg?v=1") no-repeat
+}
+
+.wideGallery--zgxXM .icon-morganite-gemstone--ImQA5 {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Morganite.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-pinkSapphire-gemstone--sY5wZ {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Pink_Sapphire.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-pinkTourmaline-gemstone--CNqCi {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Pink_Tourmaline.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-tanzanite-gemstone--kntDL {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Tanzanite.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-tsavorite-gemstone--o9Oc7 {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Tsavorite.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-turquoise-gemstone--Wxtxt {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Turquoise_2.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-prasiolite-gemstone--xu1TV {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Prasiolite.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-moonQuartz-gemstone--LnL5M {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Moon_Quartz.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-multi-gemstone--G9IPV {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Multi.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-others-gemstone--OSGcq {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Others.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-akoya-gemstone--WcJLJ {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Akoya_Pearl_2.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-freshWaterPearl-gemstone--iLySX {
+	background: url("https://ion.r2net.com/Images/FineJewelry/FreshWater_Pearl.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-tahitianPearl-gemstone--VicFa {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Tahitian_Pearl_2.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-southSeaPearl-gemstone--f9jt7 {
+	background: url("https://ion.r2net.com/Images/FineJewelry/South_Sea_Pearl_2.jpg") no-repeat
+}
+
+.wideGallery--zgxXM .icon-Diamond_Studs--eq6iX {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Diamond_Studs.svg") no-repeat center;
+	background-size: contain;
+	height: 20px
+}
+
+.wideGallery--zgxXM .icon-NecklacesDiamond_Pendants--bojm0 {
+	background: url("https://ion.r2net.com/Images/FineJewelry/NecklacesDiamond_Pendants.svg") no-repeat center;
+	background-size: contain;
+	width: 16px;
+	height: 26px;
+	margin-right: 6px
+}
+
+.wideGallery--zgxXM .icon-Bracelets--uFIjs {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Bracelets.svg") no-repeat center;
+	background-size: contain;
+	height: 24px;
+	width: 24px;
+	margin-right: 2px
+}
+
+.wideGallery--zgxXM .icon-Diamond_Rings--aSltW {
+	background: url("https://ion.r2net.com/Images/FineJewelry/Diamond_Rings.svg") no-repeat center;
+	background-size: contain;
+	width: 32px;
+	height: 22px;
+	margin-right: -2px
+}
+
+.wideGallery--zgxXM [class*=" bg-metal"],
+.wideGallery--zgxXM [class^=bg-metal] {
+	background-position: -8px -7px;
+	background-size: 154%
+}
+
+.wideGallery--zgxXM .bg-metal-show-all--eSBf3 {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/ALL.svg")
+}
+
+.wideGallery--zgxXM .bg-metal-14k-white--bOn4c {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/14S.svg")
+}
+
+.wideGallery--zgxXM .bg-metal-18k-white--ZGqt6 {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/18S.svg")
+}
+
+.wideGallery--zgxXM .bg-metal-14k-yellow--TJlT6 {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/14G.svg")
+}
+
+.wideGallery--zgxXM .bg-metal-18k-yellow--_OVGd {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/18G.svg")
+}
+
+.wideGallery--zgxXM .bg-metal-platinum--Zy24f {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/PT.svg")
+}
+
+.wideGallery--zgxXM .bg-metal-rose--qvODF {
+	background-image: url("https://ion.r2net.com/Images/svg/Mobile/RO.svg")
+}
+
+.wideGallery--zgxXM .icon-unique--tppm6 {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/jamesallen-unique.png") no-repeat;
+	background-size: contain
+}
+
+.wideGallery--zgxXM .icon-danhov--_dO8r {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/danhov_s.png") no-repeat;
+	background-size: contain
+}
+
+.wideGallery--zgxXM .icon-verragio--QLldm {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/verragio_s.png") no-repeat;
+	background-size: contain
+}
+
+.wideGallery--zgxXM .icon-jeff-cooper--z90pp {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/jeff-cooper_s.png") no-repeat;
+	background-size: contain
+}
+
+.wideGallery--zgxXM .icon-martin-flyer--od6yA {
+	background: url("https://ion.r2net.com/Images/menu/dc-logos/martin-flyer.png") no-repeat;
+	background-size: contain
+}

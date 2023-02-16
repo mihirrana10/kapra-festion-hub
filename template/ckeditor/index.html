@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="<?php echo $baseurl;?>ckeditor/samples/sample.css">
+<form id="news" name="news" method="post" role="form" >  
+<table width="958">
+<tr>
+<td>Description</td>
+<td><textarea id="editor1" name="description" class="ckeditor" ></textarea></td>
+<span style="color:#FF0000"><?php echo form_error('description');?></span>
+</tr>
+<tr>
+<td>
+<td><input type="submit" value="Submit" class="btn btn-info btn-sm"/></td>
+<td><input type="reset" value="Reset" class="btn btn-info btn-sm"/></td>
+</tr>
+</table>
+</form>
+<script src="ckeditor.js">  </script>
+<script type="text/javascript">
+ 
+CKEDITOR.replace( 'editor1', {
+fullPage: true,
+allowedContent: true,
+extraPlugins: 'wysiwygarea'
+ 
+});
+</script>
